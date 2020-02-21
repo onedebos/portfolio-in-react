@@ -16,13 +16,27 @@
 }
 
 .profiles a {
-  font-size: 1.2em;
-  line-height: 2.5;
+  font-size: 1.1em;
+  line-height: 1.5;
 }
 
 @media (min-width: 350px) and (max-width: 415px) {
   .wrapper-left {
-    width: 70vw;
     margin: 1em 4em 1em 4em;
+  }
+  .aboutDebs {
+    margin-bottom: 2em;
+  }
+
+  .profiles a {
+    line-height: 1;
+    font-size: 1em;
+  }
+}
+
+@media (width: 360px) {
+  .profiles a {
+    line-height: 1;
+    font-size: 1em;
   }
 }

@@ -9,7 +9,7 @@
   grid-template-columns: 1fr 2fr;
 }
 
-body p {
+.description {
   font-size: 1.2em;
 }
 

@@ -28,19 +28,18 @@ export default function Left() {
         </p>
       </div>
       <div className="profiles">
-        <div className="description">
-          <a href="https://github.com/onedebos/">github</a> |
-          <a href="https://www.linkedin.com/in/adebola-niran"> linkedin</a> |
-          <a href="https://twitter.com/debosthefirst"> twitter</a> |
-          <a href="https://linktr.ee/adebol_a"> linktree</a> |
-          <div className="linksUnder">
-            <a href="https://medium.com/@adebola.niran">medium</a> |{" "}
-            <a href="mailto: adebola.rb.js@gmail.com">shoot an email &nbsp;</a>|{" "}
-            <a href="https://gist.github.com/onedebos/08c6d089a55e53e07b9bf56451c912fc">
-              resume
-            </a>
-          </div>
-        </div>
+        <p className="description">
+          <a href="https://github.com/onedebos/">github</a>&nbsp;| &nbsp;
+          <a href="mailto: adebola.rb.js@gmail.com">email</a>&nbsp;|&nbsp;
+          <a href="https://www.linkedin.com/in/adebola-niran">linkedin</a>
+          &nbsp;| &nbsp;<a href="https://twitter.com/debosthefirst">twitter</a>
+          &nbsp;|&nbsp;
+          <a href="https://medium.com/@adebola.niran">medium</a> &nbsp;| &nbsp;
+          <a href="https://gist.github.com/onedebos/08c6d089a55e53e07b9bf56451c912fc">
+            resume
+          </a>
+          &nbsp; |&nbsp;<a href="https://linktr.ee/adebol_a">linktree</a>{" "}
+        </p>
       </div>
     </div>
   );

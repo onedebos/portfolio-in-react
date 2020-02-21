@@ -7,8 +7,9 @@ export default function Footer() {
   return (
     <div className="allFooters">
       <div className="mobileFooter">
-        built with <FontAwesomeIcon icon={faHeart} color="red" /> and everything
-        good. - A.A
+        built with &nbsp;
+        <FontAwesomeIcon icon={faHeart} color="red" />
+        &nbsp; and everything good. - A.A
       </div>
       <div className="mainFooter"></div>
       <div class="grid-free">

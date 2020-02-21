@@ -1,9 +1,9 @@
 .mainFooter {
   background-color: orange;
   bottom: 0;
-  margin-top: 6.55em;
+  margin-top: 8.45em;
   position: relative;
-  height: 80px;
+  height: 50px;
 }
 .full-text {
   height: 2rem;
@@ -29,6 +29,20 @@
   }
 
   .mobileFooter {
+    bottom: 0;
+    position: absolute;
     visibility: visible;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    padding-top: 2.5em;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .allFooters {
+    margin: 0;
+    padding: 0;
   }
 }
