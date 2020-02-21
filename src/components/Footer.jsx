@@ -12,8 +12,8 @@ export default function Footer() {
         &nbsp; and everything good. - A.A
       </div>
       <div className="mainFooter"></div>
-      <div class="grid-free">
-        <p class="full-text">Adebola Adeniran</p>
+      <div className="grid-free">
+        <p className="full-text">Adebola Adeniran</p>
       </div>
     </div>
   );

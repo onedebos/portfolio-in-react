@@ -1,0 +1,22 @@
+.project-img {
+  margin-top: -1.5em;
+  object-fit: contain;
+  width: 320px;
+  height: 320px;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project-title {
+  font-weight: normal;
+}
+
+@media (min-width: 350px) and (max-width: 415px) {
+  .project-name {
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
