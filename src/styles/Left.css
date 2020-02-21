@@ -1,0 +1,28 @@
+.wrapper-left {
+  margin: 3em 1em 1em 10em;
+}
+
+.name-title {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.city {
+  font-style: italic;
+}
+
+.aboutDebs {
+  margin-bottom: 5em;
+}
+
+.profiles a {
+  font-size: 1.2em;
+  line-height: 2.5;
+}
+
+@media (min-width: 350px) and (max-width: 415px) {
+  .wrapper-left {
+    width: 70vw;
+    margin: 1em 4em 1em 4em;
+  }
+}

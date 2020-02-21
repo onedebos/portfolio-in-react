@@ -1,0 +1,55 @@
+.project-img,
+.project-img-1 {
+  margin-top: -1.5em;
+  object-fit: contain;
+  width: 320px;
+  height: 320px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.wrapper-right {
+  padding-top: 3em;
+  margin: 3em 0 1em 10em;
+  background-color: yellow;
+  height: 630px;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project-name-1 {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.project-title,
+.project-title-1 {
+  font-weight: normal;
+}
+
+@media (min-width: 350px) and (max-width: 415px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .wrapper-right {
+    margin: 0;
+    background-color: yellow;
+    height: 100%;
+  }
+
+  .project-name-1 {
+    font-size: 1em;
+  }
+  .project-name {
+    font-weight: 600;
+    font-size: 1em;
+  }
+}
