@@ -18,8 +18,16 @@
 .less-bg {
   background-color: white;
   height: 10px;
-  width: 30px;
+  width: 60px;
   margin-top: -0.6em;
+}
+
+.less-bg:hover {
+  -webkit-transition: width 0.1s ease-in;
+  -moz-transition: width 0.1s ease-in;
+  -o-transition: width 0.1s ease-in;
+  transition: width 0.1s ease-in;
+  width: 160px;
 }
 
 @media (min-width: 1200px) {

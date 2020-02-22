@@ -20,6 +20,18 @@
   font-weight: normal;
 }
 
+.gh-link {
+  margin-top: -2.5em;
+}
+
+.gh-link a {
+  text-decoration: none;
+}
+
+.gh-link a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 350px) and (max-width: 415px) {
   .project-name {
     font-weight: 600;
