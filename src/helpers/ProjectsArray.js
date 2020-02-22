@@ -42,7 +42,7 @@ const projects = [
     projectUrl: "https://micro-social.herokuapp.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582245547/personal-portfolio/Screen_Shot_2020-02-21_at_01.38.39_cef8dh.png",
-    ghLink: "https://github.com/rociac/micro-facebook"
+    ghLink: "https://github.com/onedebos/micro-facebook"
   },
   {
     id: 6,
