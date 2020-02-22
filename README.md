@@ -10,10 +10,6 @@
 - NPM
 - Cloudinary for serving optimized immages
 
-## Live
-
-[Live Link](https://elegant-borg-4081b7.netlify.com/#)
-
 ## Getting Started
 
 **To get started, follow the instructions below**
