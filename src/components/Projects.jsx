@@ -1,25 +1,22 @@
 import React from "react";
 import "../styles/Projects.css";
-import projects from "../ProjectsArray";
 
-const Projects = ({
-  id,
-  projectName,
-  projectBuiltWith,
-  projectUrl,
-  imgUrl
-}) => {
-  const displayProjects = projects.map(project => (
-    <div>
+const Projects = ({ projects }) => {
+  const displayProjects = projects.map((project, index) => (
+    <div key={`project-${index}`}>
       <div className={`project-name`}>
-        {projectName}&nbsp;
-        <span className={`project-title`}>{projectBuiltWith}</span>
+        {project.projectName}&nbsp;
+        <span className={`project-title`}>{project.projectBuiltWith}</span>
       </div>
-      <a href={projectUrl}>
-        <img className={`project-img`} alt={projectName} src={imgUrl} />
+      <a href={project.projectUrl}>
+        <img
+          className={`project-img`}
+          alt={project.projectName}
+          src={project.imgUrl}
+        />
       </a>
     </div>
   ));
-  return <div>{displayProjects}</div>;
+  return <div className="projects-grid">{displayProjects}</div>;
 };
 export default Projects;

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Projects from "./Projects";
-import projects from "../ProjectsArray";
+import projects from "../helpers/ProjectsArray";
+import Paginate from "../helpers/Paginate";
 import "../styles/Right.css";
 export default function Right() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [projectsPerPage, setProjectsPerPage] = useState(4);
+  const [projectsPerPage] = useState(4);
 
   const indexOfLastProject = currentPage * projectsPerPage;
   const indexOfFirstProject = indexOfLastProject - projectsPerPage;
@@ -12,20 +13,19 @@ export default function Right() {
     indexOfFirstProject,
     indexOfLastProject
   );
-  const displayProjects = projects.map(project => (
-    <div className={project.id} key={project.id}>
-      <Projects
-        id={project.id}
-        projectName={project.projectName}
-        projectBuiltWith={project.projectBuiltWith}
-        projectUrl={project.projectUrl}
-        imgUrl={project.imgUrl}
-      />
-    </div>
-  ));
+
+  const paginate = pageNumber => {
+    setCurrentPage(pageNumber);
+    return false;
+  };
   return (
     <div className="wrapper-right">
-      <div className="projects-grid">{displayProjects}</div>
+      <Projects projects={currentProject} />
+      <Paginate
+        projectsPerPage={projectsPerPage}
+        totalProjects={projects.length}
+        paginate={paginate}
+      />
     </div>
   );
 }

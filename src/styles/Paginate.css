@@ -1,0 +1,51 @@
+.pagination-links {
+  display: flex;
+  justify-content: center;
+}
+
+.page-item {
+  list-style: none;
+  margin-left: 1.5em;
+}
+
+.page-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.less-bg {
+  background-color: white;
+  height: 10px;
+  width: 30px;
+  margin-top: -0.6em;
+}
+
+@media (min-width: 991px) {
+  .page-item {
+  }
+
+  .page-item a {
+    z-index: 1;
+    text-decoration: underline;
+    position: absolute;
+    font-weight: 500;
+    top: 0;
+    margin-left: -2em;
+    margin-top: 3em;
+    color: purple;
+    font-size: 1.2em;
+  }
+
+  .less-bg {
+    visibility: hidden;
+  }
+
+  .less {
+    margin-right: 3em;
+  }
+  .more-p {
+    margin-left: 3em;
+  }
+}
