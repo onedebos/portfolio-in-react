@@ -22,10 +22,7 @@
   margin-top: -0.6em;
 }
 
-@media (min-width: 991px) {
-  .page-item {
-  }
-
+@media (min-width: 1200px) {
   .page-item a {
     z-index: 1;
     text-decoration: underline;

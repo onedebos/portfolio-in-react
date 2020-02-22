@@ -24,7 +24,7 @@ a {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   .main-wrapper {
     grid-template-columns: 1fr;
   }
