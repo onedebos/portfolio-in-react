@@ -33,16 +33,17 @@
 @media (min-width: 1200px) {
   .page-item a {
     z-index: 1;
-    text-decoration: underline;
     position: absolute;
-    font-weight: 500;
+    font-weight: 600;
     top: 0;
     margin-left: -2em;
     margin-top: 3em;
-    color: purple;
     font-size: 1.2em;
   }
 
+  .page-item a:hover {
+    text-decoration: underline;
+  }
   .less-bg {
     visibility: hidden;
   }
