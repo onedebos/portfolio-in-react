@@ -16,7 +16,7 @@ export default function Left() {
           I write in Ruby and Javascript and build apps in Rails and React.
         </p>
         <p className="description">
-          I design in Photoshop, Illustrator and Figma.
+          I design in Photoshop, Illustrator and do UI designs in Figma.
         </p>
         <p className="description">
           I write techy and random articles on my
