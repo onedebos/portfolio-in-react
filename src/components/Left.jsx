@@ -15,7 +15,9 @@ export default function Left() {
         <p className="description">
           I write in Ruby and Javascript and build apps in Rails and React.
         </p>
-        <p className="description">I design in Photoshop and Illustrator.</p>
+        <p className="description">
+          I design in Photoshop, Illustrator and Figma.
+        </p>
         <p className="description">
           I write techy and random articles on my
           <a href="http://wwww.onedebos.wordpress.com">&nbsp;blogs.</a>
