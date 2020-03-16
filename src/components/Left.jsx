@@ -37,7 +37,7 @@ export default function Left() {
           &nbsp;| &nbsp;<a href="https://twitter.com/debosthefirst">twitter</a>
           &nbsp;|&nbsp;
           <a href="https://medium.com/@adebola.niran">medium</a> &nbsp;| &nbsp;
-          <a href="https://gist.github.com/onedebos/08c6d089a55e53e07b9bf56451c912fc">
+          <a href="https://gist.github.com/onedebos/08c6d089a55e53e07b9bf56451c912fc#file-adebola-cv-md">
             resume
           </a>
           &nbsp; |&nbsp;<a href="https://linktr.ee/adebol_a">linktree</a>{" "}
