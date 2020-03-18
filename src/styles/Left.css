@@ -50,3 +50,9 @@
 .darkModeBtn {
   font-size: 1em;
 }
+
+.description.profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
