@@ -1,0 +1,21 @@
+$link-color: #1da1f2;
+.darkModeBtn {
+  background-color: purple;
+  border: 0;
+  padding: 0.5em 2em;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: $link-color;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+.darkModeBtn.dark-mode {
+  background-color: $link-color;
+  &:hover {
+    background-color: purple;
+  }
+}

@@ -1,3 +1,6 @@
+$base-color: #15202b;
+$link-color: #1da1f2;
+
 .container {
   position: relative;
   min-height: 100vh;
@@ -32,4 +35,17 @@ a {
   body {
     overflow-x: hidden;
   }
+}
+
+.container.dark-mode {
+  background-color: $base-color;
+  color: white;
+}
+
+.dark-mode a {
+  color: $link-color;
+}
+
+.wrapper-right.dark-mode {
+  background-color: $base-color;
 }
