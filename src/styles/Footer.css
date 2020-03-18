@@ -1,10 +1,10 @@
 .mainFooter {
-  background-color: orange;
   bottom: 0;
   margin-top: 7.2em;
   position: relative;
   height: 50px;
 }
+
 .full-text {
   height: 2rem;
   position: absolute;
@@ -41,6 +41,9 @@
     text-align: center;
   }
 
+  .mobileFooter.dark-mode {
+    background-color: #15202b;
+  }
   .allFooters {
     margin: 0;
     padding: 0;
@@ -64,5 +67,9 @@
     height: 50px;
     width: 100vw;
     text-align: center;
+  }
+
+  .mobileFooter.dark-mode {
+    background-color: #15202b;
   }
 }

@@ -1,13 +1,16 @@
 import React from "react";
 import "../styles/Left.css";
+import { Slider } from "./Slider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faPlane } from "@fortawesome/free-solid-svg-icons";
 
-export default function Left() {
+export default function Left({ handleDarkMode, clicked }) {
   return (
     <div className="wrapper-left">
       <div className="aboutDebs">
         <p className="name-title">Hi, I'm Adebola.</p>
+        <Slider handleClick={handleDarkMode} clicked={clicked} />
+
         <p className="description">
           I'm a full-stack developer from
           <span className="city">&nbsp;Lagos, Nigeria.</span>
