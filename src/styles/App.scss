@@ -5,6 +5,8 @@ $link-color: #1da1f2;
   position: relative;
   min-height: 100vh;
   line-height: 1.5;
+  background-color: white;
+  transition: 0.2s ease;
 }
 
 .main-wrapper {
@@ -39,6 +41,7 @@ a {
 
 .container.dark-mode {
   background-color: $base-color;
+  transition: 0.5s ease;
   color: white;
 }
 
