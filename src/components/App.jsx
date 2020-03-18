@@ -16,10 +16,11 @@ export default function App() {
     const wrapperRight = document.querySelector(".wrapper-right");
     const mobileFooter = document.querySelector(".mobileFooter");
     const darkModeBtn = document.querySelector(".darkModeBtn");
-    darkModeBtn.classList.toggle("dark-mode");
+
     wrapperRight.classList.toggle("dark-mode");
     container.classList.toggle("dark-mode");
     mobileFooter.classList.toggle("dark-mode");
+    darkModeBtn.classList.toggle("dark-mode");
   };
   return (
     <div className="container">
