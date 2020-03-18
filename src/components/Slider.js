@@ -5,7 +5,7 @@ export const Slider = ({ handleClick, clicked }) => {
   return (
     <div>
       <button onClick={handleClick} className="darkModeBtn">
-        {clicked.mode ? "Light mode" : "Dark mode"}
+        Tap for {clicked.mode ? "Light mode" : "Dark mode"}
       </button>
     </div>
   );
