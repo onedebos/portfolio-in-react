@@ -19,7 +19,9 @@ export default function Left({ handleDarkMode, clicked }) {
           I write in Ruby and JavaScript and build apps in Rails and React.
         </p>
         <p className="description">
-          I design in Photoshop, Illustrator and do UI designs in Figma.
+          I design in Photoshop, Illustrator and create UI&nbsp;
+          <a href="https://github.com/onedebos/Designs">designs</a>&nbsp;in
+          Figma.
         </p>
         <p className="description">
           I write techy and random articles on my personal&nbsp;
@@ -46,7 +48,7 @@ export default function Left({ handleDarkMode, clicked }) {
           &nbsp;&nbsp;
           <a href="https://linktr.ee/adebol_a">linktree</a> &nbsp;&nbsp;
           <a href="https://dev.to/@debosthefirst">dev.to</a>&nbsp;&nbsp;
-          <a href="https://hackernoon.com/@adebola">HackerNoon</a>{" "}
+          <a href="https://hackernoon.com/@adebola">hackernoon</a>{" "}
         </p>
       </div>
     </div>
