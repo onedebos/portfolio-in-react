@@ -16,14 +16,14 @@ export default function Left({ handleDarkMode, clicked }) {
           <span className="city">&nbsp;Lagos, Nigeria.</span>
         </p>
         <p className="description">
-          I write in Ruby and Javascript and build apps in Rails and React.
+          I write in Ruby and JavaScript and build apps in Rails and React.
         </p>
         <p className="description">
           I design in Photoshop, Illustrator and do UI designs in Figma.
         </p>
         <p className="description">
-          I write techy and random articles on my
-          <a href="http://wwww.onedebos.wordpress.com">&nbsp;blogs.</a>
+          I write techy and random articles on my personal&nbsp;
+          <a href="http://wwww.onedebos.wordpress.com">blog</a>.
         </p>
         <p className="description">
           I can talk all day about food, travel{" "}
