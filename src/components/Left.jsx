@@ -45,7 +45,8 @@ export default function Left({ handleDarkMode, clicked }) {
           </a>
           &nbsp;&nbsp;
           <a href="https://linktr.ee/adebol_a">linktree</a> &nbsp;&nbsp;
-          <a href="https://dev.to/@debosthefirst">dev.to</a>{" "}
+          <a href="https://dev.to/@debosthefirst">dev.to</a>&nbsp;&nbsp;
+          <a href="https://hackernoon.com/@adebola">HackerNoon</a>{" "}
         </p>
       </div>
     </div>
