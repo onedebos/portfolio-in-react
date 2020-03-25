@@ -48,6 +48,8 @@ export default function Left({ handleDarkMode, clicked }) {
           &nbsp;&nbsp;
           <a href="https://linktr.ee/adebol_a">linktree</a> &nbsp;&nbsp;
           <a href="https://dev.to/@debosthefirst">dev.to</a>&nbsp;&nbsp;
+          <a href="https://www.instagram.com/adebola.js">instagram</a>
+          &nbsp;&nbsp;
           <a href="https://hackernoon.com/@adebola">hackernoon</a>{" "}
         </p>
       </div>
