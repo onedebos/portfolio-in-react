@@ -57,7 +57,7 @@ const projects = [
   {
     id: 7,
     projectName: "OwoNiKoko",
-    projectBuiltWith: "Built with Rails/React/Context API",
+    projectBuiltWith: "with Rails/React/Context API",
     projectUrl: "https://kind-edison-586550.netlify.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
