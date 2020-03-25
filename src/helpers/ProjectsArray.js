@@ -30,9 +30,9 @@ const projects = [
     id: 4,
     projectName: "Weatherify",
     projectBuiltWith: "with JS fetch API and Webpack",
-    projectUrl: "https://sleepy-wing-03ddf5.netlify.com/",
+    projectUrl: "https://kind-carson-bb3068.netlify.com/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/q_auto:best/v1582185364/personal-portfolio/app4_hoiwib.png",
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:good/v1585164229/personal-portfolio/Screenshot_2020-03-25_Weatherify_-_live_weather_data_xeafej.png",
     ghLink: "https://github.com/onedebos/weather-app"
   },
   {
