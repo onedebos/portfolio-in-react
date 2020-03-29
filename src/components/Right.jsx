@@ -20,12 +20,12 @@ export default function Right() {
   };
   return (
     <div className="wrapper-right">
-      <Projects projects={currentProject} />
       <Paginate
         projectsPerPage={projectsPerPage}
         totalProjects={projects.length}
         paginate={paginate}
       />
+      <Projects projects={currentProject} />
     </div>
   );
 }

@@ -30,7 +30,7 @@ const projects = [
   {
     id: 4,
     projectName: "Weatherify",
-    projectBuiltWith: "with JS fetch API and Webpack",
+    projectBuiltWith: "with Fetch and Webpack",
     projectUrl: "https://kind-carson-bb3068.netlify.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:best/v1585167888/personal-portfolio/Screenshot_2020-03-25_Weatherify_-_live_weather_data_1_toqqit.png",
@@ -39,7 +39,7 @@ const projects = [
   {
     id: 5,
     projectName: "MicroFacebook",
-    projectBuiltWith: "Built with Rails + fb Auth",
+    projectBuiltWith: "with Rails + fb Auth",
     projectUrl: "https://micro-social.herokuapp.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582245547/personal-portfolio/Screen_Shot_2020-02-21_at_01.38.39_cef8dh.png",

@@ -15,43 +15,15 @@
   font-weight: 600;
 }
 
-.less-bg {
-  background-color: white;
-  height: 10px;
-  width: 60px;
-  margin-top: -0.6em;
-}
-
-.less-bg:hover {
-  -webkit-transition: width 0.1s ease-in;
-  -moz-transition: width 0.1s ease-in;
-  -o-transition: width 0.1s ease-in;
-  transition: width 0.1s ease-in;
-  width: 160px;
+.page-item a:hover {
+  font-size: 1.4em;
+  transition: color 0.1s ease-in-out;
+  transition: font-size 0.2s ease-in;
+  text-decoration: none;
 }
 
 @media (min-width: 1200px) {
-  .page-item a {
-    z-index: 1;
-    position: absolute;
-    font-weight: 600;
-    top: 0;
-    margin-left: -2em;
-    margin-top: 3em;
-    font-size: 1.2em;
-  }
-
-  .page-item a:hover {
-    text-decoration: underline;
-  }
   .less-bg {
     visibility: hidden;
-  }
-
-  .less {
-    margin-right: 3em;
-  }
-  .more-p {
-    margin-left: 3em;
   }
 }

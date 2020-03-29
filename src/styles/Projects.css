@@ -8,24 +8,33 @@
   margin-top: -1.5em;
   object-fit: contain;
   width: 320px;
-  height: 320px;
+  height: 300px;
 }
 
 .project-name {
   font-weight: 600;
   font-size: 1.2em;
+  margin-top: 2%;
 }
 
 .project-title {
   font-weight: normal;
 }
 .gh-link {
-  margin-top: -2.5em;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  margin-top: -1.8em;
 }
 
 .gh-link a {
   color: #055d94;
   text-decoration: none;
+}
+
+.gh-link a:hover {
+  text-decoration: none;
+  color: #055d94;
 }
 
 @media (min-width: 350px) and (max-width: 415px) {

@@ -16,13 +16,11 @@ const Paginate = ({ projectsPerPage, paginate, totalProjects }) => {
       <a onClick={() => paginate(number)} href="#!" className="page-link">
         {number === 1 ? (
           <div className="less">
-            <div className="less-p">{"<<"}&nbsp;less</div>
-            <div className="less-bg"></div>
+            <div className="less-p">{"<<"}&nbsp;previous</div>
           </div>
         ) : (
           <div className="more">
-            <div className="more-p">more&nbsp;{">>"} </div>
-            <div className="less-bg"></div>
+            <div className="more-p">next&nbsp;{">>"} </div>
           </div>
         )}
       </a>
