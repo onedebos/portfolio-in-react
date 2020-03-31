@@ -32,11 +32,6 @@
   text-decoration: none;
 }
 
-.gh-link a:hover {
-  text-decoration: none;
-  color: #055d94;
-}
-
 @media (min-width: 350px) and (max-width: 415px) {
   .project-name {
     font-weight: 600;
