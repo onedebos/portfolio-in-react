@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e8e07b4-7bfd-48b6-b2bf-9ac1a45b494e/deploy-status)](https://app.netlify.com/sites/elegant-borg-4081b7/deploys)
 # Portfolio
 
-> This is my personal portfolio - a collection of some of my favorite projects.Built in React.
+> This is my personal portfolio built in react. It features a collection of some of my favorite projects and includes some interesting details about me.
 
 ![screenshot](./app_screenshot.png)
 
