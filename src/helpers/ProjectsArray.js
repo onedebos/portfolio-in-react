@@ -20,12 +20,12 @@ const projects = [
   },
   {
     id: 3,
-    projectName: "BookStr",
-    projectBuiltWith: "Built with React and Redux",
-    projectUrl: "https://redux-bookstr.herokuapp.com/",
+    projectName: "Lrn::Fast",
+    projectBuiltWith: "with React and Redux toolkit",
+    projectUrl: "https://lrn-fast.netlify.com/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582185339/personal-portfolio/app2_ry23fm.png",
-    ghLink: "https://github.com/onedebos/redux-bookstore"
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1586895384/personal-portfolio/Screen_Shot_2020-04-14_at_21.15.22_h3ckk8.png",
+    ghLink: "https://github.com/onedebos/learn-fast"
   },
   {
     id: 4,
