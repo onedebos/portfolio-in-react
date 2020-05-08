@@ -66,7 +66,7 @@ const projects = [
   {
     id: 8,
     projectName: "Foodies",
-    projectBuiltWith: "Rails and React",
+    projectBuiltWith: "Built with Rails and React",
     projectUrl: "https://foodies-stop.netlify.app/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
