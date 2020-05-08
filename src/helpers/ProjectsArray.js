@@ -65,12 +65,12 @@ const projects = [
   },
   {
     id: 8,
-    projectName: "Modern Home",
-    projectBuiltWith: "Built with HTML and CSS",
-    projectUrl: "https://onedebos.github.io/portfolio-site-1/",
+    projectName: "Foodies",
+    projectBuiltWith: "Rails and React",
+    projectUrl: "https://foodies-stop.netlify.app/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582185341/personal-portfolio/app1_lmoopo.png",
-    ghLink: "https://github.com/onedebos/portfolio-site-1"
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
+    ghLink: "https://github.com/Tripple-A/Chef-React-App"
   }
 ];
 
