@@ -28,13 +28,13 @@ const projects = [
     ghLink: "https://github.com/onedebos/learn-fast"
   },
   {
-    id: 4,
-    projectName: "Weatherify",
-    projectBuiltWith: "with Fetch and Webpack",
-    projectUrl: "https://kind-carson-bb3068.netlify.com/",
+    id: 8,
+    projectName: "Foodies",
+    projectBuiltWith: "Built with Rails and React",
+    projectUrl: "https://foodies-stop.netlify.app/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:best/v1585167888/personal-portfolio/Screenshot_2020-03-25_Weatherify_-_live_weather_data_1_toqqit.png",
-    ghLink: "https://github.com/onedebos/weather-app"
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
+    ghLink: "https://github.com/Tripple-A/Chef-React-App"
   },
   {
     id: 5,
@@ -65,12 +65,12 @@ const projects = [
   },
   {
     id: 8,
-    projectName: "Foodies",
-    projectBuiltWith: "Built with Rails and React",
-    projectUrl: "https://foodies-stop.netlify.app/",
+    projectName: "Weatherify",
+    projectBuiltWith: "with Fetch and Webpack",
+    projectUrl: "https://kind-carson-bb3068.netlify.com/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
-    ghLink: "https://github.com/Tripple-A/Chef-React-App"
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:best/v1585167888/personal-portfolio/Screenshot_2020-03-25_Weatherify_-_live_weather_data_1_toqqit.png",
+    ghLink: "https://github.com/onedebos/weather-app"
   }
 ];
 

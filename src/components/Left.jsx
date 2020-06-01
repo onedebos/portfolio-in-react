@@ -16,7 +16,8 @@ export default function Left({ handleDarkMode, clicked }) {
           <span className="city">&nbsp;Lagos, Nigeria.</span>
         </p>
         <p className="description">
-          I write in Ruby and JavaScript and build apps in Rails and React.
+          I write in Ruby and JavaScript and build apps in Rails and React.{" "}
+          <code>Update: Add some Node.js, express and MongoDB in there</code> .
         </p>
         <p className="description">
           I design in Photoshop, Illustrator and create UI&nbsp;
@@ -24,31 +25,91 @@ export default function Left({ handleDarkMode, clicked }) {
           Figma.
         </p>
         <p className="description">
-          I write techy and random articles on my personal&nbsp;
-          <a href="http://wwww.onedebos.wordpress.com">blog</a>.
+          I write technical articles that are short and noob-friendly!&nbsp;
+          <a href="https://medium.com/@adebola.niran">Read some</a>. I recently
+          had one translated and published in Chinese!
         </p>
         <p className="description">
           I can talk all day about food, travel{" "}
-          <FontAwesomeIcon icon={faPlane} />, startups, design, love{" "}
+          <FontAwesomeIcon icon={faPlane} />, startups, design, romance/love{" "}
           <FontAwesomeIcon icon={faHeart} color="red" />, social enterprises and
           everything in between.
         </p>
       </div>
       <div className="profiles">
         <p className="description profiles">
-          <a href="https://github.com/onedebos/">github</a>&nbsp; &nbsp;
-          <a href="mailto: adebola.rb.js@gmail.com">email</a>&nbsp;&nbsp;
-          <a href="https://www.linkedin.com/in/adebola-niran">linkedin</a>
-          &nbsp; &nbsp;<a href="https://twitter.com/debosthefirst">twitter</a>
+          <a
+            href="https://github.com/onedebos/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+          &nbsp; &nbsp;
+          <a
+            href="mailto: adebola.rb.js@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            email
+          </a>
           &nbsp;&nbsp;
-          <a href="https://medium.com/@adebola.niran">medium</a> &nbsp; &nbsp;
-          <a href="https://gist.github.com/onedebos/08c6d089a55e53e07b9bf56451c912fc#file-adebola-cv-md">
+          <a
+            href="https://www.linkedin.com/in/adebola-niran"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin
+          </a>
+          &nbsp; &nbsp;
+          <a
+            href="https://twitter.com/debosthefirst"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            twitter
+          </a>
+          &nbsp;&nbsp;
+          <a
+            href="https://medium.com/@adebola.niran"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            medium
+          </a>{" "}
+          &nbsp; &nbsp;
+          <a
+            href="https://drive.google.com/file/d/1NWlP25IMbtSPpUCKuEPqBFmHaMfwKoJC/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             resume
           </a>
           &nbsp;&nbsp;
-          <a href="https://linktr.ee/adebol_a">linktree</a> &nbsp;&nbsp;
-          <a href="https://dev.to/@debosthefirst">dev.to</a>&nbsp;&nbsp;
-          <a href="https://hackernoon.com/@adebola">hackernoon</a>&nbsp;&nbsp;
+          <a
+            href="https://linktr.ee/adebol_a"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linktree
+          </a>{" "}
+          &nbsp;&nbsp;
+          <a
+            href="https://dev.to/@debosthefirst"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dev.to
+          </a>
+          &nbsp;&nbsp;
+          <a
+            href="https://hackernoon.com/@adebola"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hackernoon
+          </a>
+          &nbsp;&nbsp;
         </p>
       </div>
     </div>
