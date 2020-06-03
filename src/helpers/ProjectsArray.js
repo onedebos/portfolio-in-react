@@ -37,6 +37,15 @@ const projects = [
     ghLink: "https://github.com/Tripple-A/Chef-React-App"
   },
   {
+    id: 7,
+    projectName: "OwoNiKoko",
+    projectBuiltWith: "with Rails/React/Context API",
+    projectUrl: "https://kind-edison-586550.netlify.com/",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
+    ghLink: "https://github.com/onedebos/owonikoko"
+  },
+  {
     id: 5,
     projectName: "MicroFacebook",
     projectBuiltWith: "with Rails + fb Auth",
@@ -54,15 +63,7 @@ const projects = [
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582245511/personal-portfolio/Screen_Shot_2020-02-21_at_01.37.35_lqntqz.png",
     ghLink: "https://github.com/onedebos/js-tictactoe"
   },
-  {
-    id: 7,
-    projectName: "OwoNiKoko",
-    projectBuiltWith: "with Rails/React/Context API",
-    projectUrl: "https://kind-edison-586550.netlify.com/",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
-    ghLink: "https://github.com/onedebos/owonikoko"
-  },
+
   {
     id: 8,
     projectName: "Weatherify",
