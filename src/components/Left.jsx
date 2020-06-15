@@ -110,6 +110,14 @@ export default function Left({ handleDarkMode, clicked }) {
             hackernoon
           </a>
           &nbsp;&nbsp;
+          <a
+            href="https://www.freecodecamp.org/news/author/adebola/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            freeCodeCamp
+          </a>
+          &nbsp;&nbsp;
         </p>
       </div>
     </div>
