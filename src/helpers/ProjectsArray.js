@@ -14,7 +14,7 @@ const projects = [
     projectBuiltWith: "GatsbyJS and GraphQL",
     projectUrl: "https://olamidefemi.com/",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/c_scale,h_1536/v1592689434/personal-portfolio/Screen_Shot_2020-06-20_at_22.43.22_dt8y1a.png",
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592690204/personal-portfolio/Screen_Shot_2020-06-20_at_22.54.46_hwsypz.png",
     ghLink: "https://github.com/onedebos/FandO"
   },
   {
