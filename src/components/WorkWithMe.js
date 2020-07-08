@@ -60,7 +60,7 @@ const WorkWithMe = () => {
           className="text-center font-bold text-4xl md:text-6xl"
           data-sal="slide-right"
         >
-          <mark>Read my work.</mark>
+          <mark>Publications.</mark>
         </div>
         <div className="text-center text-2xl" data-sal="slide-down">
           <a
@@ -93,7 +93,8 @@ const WorkWithMe = () => {
             rel="noopener noreferrer"
           >
             linktree
-          </a>{" "}
+          </a>
+          &nbsp;&nbsp;
           <a
             href="https://www.freecodecamp.org/news/author/adebola/"
             target="_blank"
