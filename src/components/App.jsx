@@ -1,15 +1,19 @@
 import React, { useState } from "react";
-import Left from "./Left";
-import Right from "./Right";
-import Footer from "./Footer";
+import Menu from "./Menu";
+import Home from "./Home";
+import Pro from "./Pro";
+import Foot from "./Foot";
+
 import "../styles/App.scss";
+import projects from "../helpers/ProjectsArray";
+import WorkWithMe from "./WorkWithMe";
 
 export default function App() {
   const [clicked, setClicked] = useState({ mode: false });
   const handleDarkMode = () => {
-    setClicked(prevState => ({
+    setClicked((prevState) => ({
       ...prevState,
-      mode: !clicked.mode
+      mode: !clicked.mode,
     }));
 
     const container = document.querySelector(".container");
@@ -23,12 +27,12 @@ export default function App() {
     darkModeBtn.classList.toggle("dark-mode");
   };
   return (
-    <div className="container">
-      <div className="main-wrapper">
-        <Left handleDarkMode={handleDarkMode} clicked={clicked} />
-        <Right />
-      </div>
-      <Footer />
+    <div>
+      <Menu />
+      <Home />
+      <Pro projects={projects} />
+      <WorkWithMe />
+      <Foot />
     </div>
   );
 }

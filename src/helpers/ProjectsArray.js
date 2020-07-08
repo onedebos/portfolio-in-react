@@ -1,6 +1,8 @@
 const projects = [
   {
     id: 1,
+    description:
+      "An application that allows individuals seeking mental health services book appointments with mental health service providers across Nigeria.",
     projectName: "Mentally",
     projectBuiltWith: "with Rails API/React/Redux",
     projectUrl: "https://awesome-kare-c984ee.netlify.com",
@@ -10,6 +12,8 @@ const projects = [
   },
   {
     id: 2,
+    description:
+      "A wedding register that allows friends leave goodwill messages and buy gifts for a couple.",
     projectName: "Prewedding",
     projectBuiltWith: "GatsbyJS and GraphQL",
     projectUrl: "https://olamidefemi.com/",
@@ -19,6 +23,8 @@ const projects = [
   },
   {
     id: 3,
+    description:
+      "An app for food vendors in Nigeria to showcase some of their best meals by uploading them, while allowing customers book them for their events.",
     projectName: "Foodies",
     projectBuiltWith: "Built with Rails and React",
     projectUrl: "https://foodies-stop.netlify.app/",
@@ -28,6 +34,8 @@ const projects = [
   },
   {
     id: 4,
+    description:
+      "A course catalogue website that allows you search for courses, see more information about a course and add a course to your cart.",
     projectName: "Lrn::Fast",
     projectBuiltWith: "with React and Redux toolkit",
     projectUrl: "https://lrn-fast.netlify.com/",
@@ -39,6 +47,8 @@ const projects = [
   {
     id: 5,
     projectName: "CoronaQL",
+    description:
+      "A GraphQL server that allows frontend apps make GraphQL queries for the latest Covid-19 data",
     projectBuiltWith: "Built with Rails/GraphQL",
     projectUrl: "https://corona-ql.herokuapp.com/graphiql",
     imgUrl:
@@ -48,6 +58,8 @@ const projects = [
 
   {
     id: 6,
+    description:
+      "An app that lets you keep track of all your bank account numbers and that of your contacts.",
     projectName: "OwoNiKoko",
     projectBuiltWith: "with Rails/React/Context API",
     projectUrl: "https://kind-edison-586550.netlify.com/",
@@ -57,6 +69,8 @@ const projects = [
   },
   {
     id: 7,
+    description:
+      "A mini social networking site that allows you sign up with facebook, add friends, like posts and comment on posts",
     projectName: "MicroFacebook",
     projectBuiltWith: "with Rails + fb Auth",
     projectUrl: "https://micro-social.herokuapp.com/",
@@ -66,6 +80,8 @@ const projects = [
   },
   {
     id: 8,
+    description:
+      "A landing page for signing up to a waitlist of an emergency healthcare service provider.",
     projectName: "Mediquik",
     projectBuiltWith: "Built with GatsbyJS",
     projectUrl: "https://mediquik.netlify.app",
