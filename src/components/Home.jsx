@@ -23,7 +23,7 @@ const Home = () => {
             <span className="text-yellow-600">JavaScript.</span>
             <span className="text-yellow-600">MongoDB.</span>
             <span className="text-yellow-600">Express.</span>
-            <span className="text-yellow-600">Figma.</span>
+            <span className="pr-6 md:pr-0 text-yellow-600">Figma.</span>
             <span className="text-yellow-600">Adobe illustrator.</span>
           </TextLoop>
         </h1>
