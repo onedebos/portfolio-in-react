@@ -60,7 +60,7 @@ const WorkWithMe = () => {
           className="text-center font-bold text-4xl md:text-6xl"
           data-sal="slide-right"
         >
-          <mark>Read my articles.</mark>
+          <mark>Read my work.</mark>
         </h1>
         <p className="text-center text-2xl" data-sal="slide-down">
           <a
