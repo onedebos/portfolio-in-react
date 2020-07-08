@@ -6,6 +6,8 @@ const Project = ({ project }) => {
       className="px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20"
       key={project.id}
       data-sal="slide-up"
+      data-sal-delay="200"
+      data-sal-easing="ease-out-back"
     >
       <div className="flex-1 reverse-text">
         <h1 className="font-bold text-4xl">{project.projectName}</h1>
