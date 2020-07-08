@@ -55,14 +55,14 @@ const WorkWithMe = () => {
           </a>
         </p>
       </div>
-      <div className="mt-8 mb-20">
-        <h1
+      <div className="mt-8 mb-20 pr-10">
+        <div
           className="text-center font-bold text-4xl md:text-6xl"
           data-sal="slide-right"
         >
           <mark>Read my work.</mark>
-        </h1>
-        <p className="text-center text-2xl" data-sal="slide-down">
+        </div>
+        <div className="text-center text-2xl" data-sal="slide-down">
           <a
             href="https://dev.to/@debosthefirst"
             target="_blank"
@@ -80,14 +80,6 @@ const WorkWithMe = () => {
           </a>
           &nbsp;&nbsp;
           <a
-            href="https://www.freecodecamp.org/news/author/adebola/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            freeCodeCamp
-          </a>
-          &nbsp; &nbsp;
-          <a
             href="https://medium.com/@adebola.niran"
             target="_blank"
             rel="noopener noreferrer"
@@ -102,7 +94,14 @@ const WorkWithMe = () => {
           >
             linktree
           </a>{" "}
-        </p>
+          <a
+            href="https://www.freecodecamp.org/news/author/adebola/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            freeCodeCamp
+          </a>
+        </div>
       </div>
     </div>
   );
