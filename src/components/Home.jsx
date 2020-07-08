@@ -1,5 +1,6 @@
 import React from "react";
 import TextLoop from "react-text-loop";
+import ScrollIntoView from "react-scroll-into-view";
 
 const Home = () => {
   return (
@@ -28,8 +29,14 @@ const Home = () => {
             <span className="text-yellow-600">Adobe illustrator.</span>
           </TextLoop>
         </h1>
+        <div>
+          <ScrollIntoView selector="#work-with-me">
+            <button className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text">
+              WORK WITH ME
+            </button>
+          </ScrollIntoView>
+        </div>
       </div>
-      <div></div>
     </div>
   );
 };

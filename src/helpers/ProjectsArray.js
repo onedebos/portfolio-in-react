@@ -2,13 +2,13 @@ const projects = [
   {
     id: 1,
     description:
-      "An application that allows individuals seeking mental health services book appointments with mental health service providers across Nigeria.",
-    projectName: "Mentally",
-    projectBuiltWith: "with Rails API/React/Redux",
-    projectUrl: "https://awesome-kare-c984ee.netlify.com",
+      "A Customer support ticketing system that allows Support agents and customers leave comments on Tickets.",
+    projectName: "SuperSuport",
+    projectBuiltWith: "Rails/React/Redux toolkit/TailwindCSS",
+    projectUrl: "https://supersupport.netlify.app",
     imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582185345/personal-portfolio/app_screenshot_mvkavi.png",
-    ghLink: "https://github.com/onedebos/mentaLY-rails-API",
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594212404/personal-portfolio/supersupport_qw1kye.png",
+    ghLink: "https://github.com/onedebos/super_support/tree/master",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const projects = [
     description:
       "An app for food vendors in Nigeria to showcase some of their best meals by uploading them, while allowing customers book them for their events.",
     projectName: "Foodies",
-    projectBuiltWith: "Built with Rails and React",
+    projectBuiltWith: "Rails, React and Redux",
     projectUrl: "https://foodies-stop.netlify.app/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
@@ -37,7 +37,7 @@ const projects = [
     description:
       "A course catalogue website that allows you search for courses, see more information about a course and add a course to your cart.",
     projectName: "Lrn::Fast",
-    projectBuiltWith: "with React and Redux toolkit",
+    projectBuiltWith: "React and Redux toolkit",
     projectUrl: "https://lrn-fast.netlify.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1586895384/personal-portfolio/Screen_Shot_2020-04-14_at_21.15.22_h3ckk8.png",
@@ -49,7 +49,7 @@ const projects = [
     projectName: "CoronaQL",
     description:
       "A GraphQL server that allows frontend apps make GraphQL queries for the latest Covid-19 data",
-    projectBuiltWith: "Built with Rails/GraphQL",
+    projectBuiltWith: "Rails/GraphQL",
     projectUrl: "https://corona-ql.herokuapp.com/graphiql",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto:best/v1585173273/personal-portfolio/Screen_Shot_2020-03-25_at_22.54.01_ii4yfw.png",
@@ -61,7 +61,7 @@ const projects = [
     description:
       "An app that lets you keep track of all your bank account numbers and that of your contacts.",
     projectName: "OwoNiKoko",
-    projectBuiltWith: "with Rails/React/Context API",
+    projectBuiltWith: "Rails/React/Context API",
     projectUrl: "https://kind-edison-586550.netlify.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
@@ -72,7 +72,7 @@ const projects = [
     description:
       "A mini social networking site that allows you sign up with facebook, add friends, like posts and comment on posts",
     projectName: "MicroFacebook",
-    projectBuiltWith: "with Rails + fb Auth",
+    projectBuiltWith: "Rails + fb Auth",
     projectUrl: "https://micro-social.herokuapp.com/",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582245547/personal-portfolio/Screen_Shot_2020-02-21_at_01.38.39_cef8dh.png",
@@ -83,11 +83,22 @@ const projects = [
     description:
       "A landing page for signing up to a waitlist of an emergency healthcare service provider.",
     projectName: "Mediquik",
-    projectBuiltWith: "Built with GatsbyJS",
+    projectBuiltWith: "GatsbyJS",
     projectUrl: "https://mediquik.netlify.app",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594035373/personal-portfolio/adebola-dev-mediquik_kt6psq.png",
     ghLink: "https://github.com/onedebos/",
+  },
+  {
+    id: 9,
+    description:
+      "An application that allows individuals seeking mental health services book appointments with mental health service providers across Nigeria.",
+    projectName: "Mentally",
+    projectBuiltWith: "Rails API/React/Redux",
+    projectUrl: "https://awesome-kare-c984ee.netlify.com",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582185345/personal-portfolio/app_screenshot_mvkavi.png",
+    ghLink: "https://github.com/onedebos/mentaLY-rails-API",
   },
 ];
 
