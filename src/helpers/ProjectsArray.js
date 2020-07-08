@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     description:
       "A Customer support ticketing system that allows Support agents and customers leave comments on Tickets.",
-    projectName: "SuperSuport",
+    projectName: "SuperSupport",
     projectBuiltWith: "Rails/React/Redux toolkit/TailwindCSS",
     projectUrl: "https://supersupport.netlify.app",
     imgUrl:

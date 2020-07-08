@@ -9,7 +9,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "aos": "^2.3.4",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
@@ -17,6 +16,7 @@
     "react-scripts": "3.4.0",
     "react-scroll-into-view": "^1.8.2",
     "react-text-loop": "^2.3.0",
+    "sal.js": "^0.7.6",
     "typeface-nunito": "^1.1.3"
   },
   "scripts": {

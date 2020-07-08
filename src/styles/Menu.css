@@ -36,3 +36,13 @@ mark {
 .pro-button:hover {
   background-position: left bottom;
 }
+
+@media (min-width: 768px) {
+  .reverse:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .reverse:nth-child(odd) > .reverse-text {
+    padding-left: 3em;
+  }
+}

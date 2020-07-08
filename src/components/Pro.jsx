@@ -9,9 +9,9 @@ const Pro = ({ projects }) => {
       </div>
       {projects.map((project, index) => {
         return (
-          <div key={index}>
-            <Project project={project} />;
-          </div>
+          <>
+            <Project project={project} />{" "}
+          </>
         );
       })}
     </div>
