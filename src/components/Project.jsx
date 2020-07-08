@@ -5,18 +5,21 @@ const Project = ({ project }) => {
     <div
       className="px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20"
       key={project.id}
-      data-sal="slide-up"
-      data-sal-delay="200"
-      data-sal-easing="ease-out-back"
     >
       <div className="flex-1 reverse-text">
-        <h1 className="font-bold text-4xl">{project.projectName}</h1>
-        <p className="text-xl pr-8">{project.description}</p>
+        <h1 className="font-bold text-4xl" data-sal="slide-up">
+          {project.projectName}
+        </h1>
+        <p className="text-xl pr-8" data-sal="slide-left">
+          {project.description}
+        </p>
         <p className="text-xl font-semibold mt-4 mb-4 pr-6">
           Built with{" "}
-          <span className="text-yellow-600">{project.projectBuiltWith}</span>
+          <span className="text-yellow-600" data-sal="slide-left">
+            {project.projectBuiltWith}
+          </span>
         </p>
-        <div className="mb-8">
+        <div className="mb-8" data-sal="slide-right">
           <a
             href={project.ghLink}
             target="_blank"
@@ -38,6 +41,7 @@ const Project = ({ project }) => {
       <div className="flex-1 md:mt-4">
         <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
           <img
+            data-sal="slide-right"
             src={project.imgUrl}
             alt={project.projectName}
             className="rounded-md"
