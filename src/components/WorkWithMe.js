@@ -7,7 +7,10 @@ const WorkWithMe = () => {
       id="work-with-me"
     >
       <div>
-        <div className="text-center font-bold text-4xl">
+        <div
+          className="text-center font-bold text-4xl md:text-6xl"
+          data-aos="slide-down"
+        >
           <mark>Work with me.</mark>
         </div>
         <p className="text-center text-2xl">
@@ -53,7 +56,10 @@ const WorkWithMe = () => {
         </p>
       </div>
       <div className="mt-8 mb-20">
-        <h1 className="text-center font-bold text-4xl">
+        <h1
+          className="text-center font-bold text-4xl md:text-6xl"
+          data-aos="slide-up"
+        >
           <mark>Read my work.</mark>
         </h1>
         <p className="text-center md:text-2xl">

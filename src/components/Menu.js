@@ -5,7 +5,7 @@ import "../styles/Menu.css";
 const Menu = () => {
   return (
     <div className="bg-gray-200 p-1 py-3">
-      <div className="flex justify-between px-10">
+      <div className="flex justify-around px-10">
         <div className="text-4xl font-bold text-yellow-600">AA</div>
         <div>
           <ScrollIntoView selector="#work-with-me">

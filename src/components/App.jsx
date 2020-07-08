@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Menu from "./Menu";
 import Home from "./Home";
 import Pro from "./Pro";
 import Foot from "./Foot";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "../styles/App.scss";
 import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
@@ -26,6 +27,10 @@ export default function App() {
   //   mobileFooter.classList.toggle("dark-mode");
   //   darkModeBtn.classList.toggle("dark-mode");
   // };
+  useEffect(() => {
+    Aos.init({ duration: 200 });
+  }, []);
+
   return (
     <div>
       <Menu />

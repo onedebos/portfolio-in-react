@@ -7,9 +7,7 @@ const Home = () => {
     <div className="min-h-screen flex justify-around items-center px-10 ">
       <div className="max-w-xs md:max-w-2xl lg:max-w-4xl">
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-            Hi, I'm Adebola.
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm Adebola.</h1>
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
           I am a <mark>fullstack</mark> developer from{" "}
