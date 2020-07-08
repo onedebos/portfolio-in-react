@@ -11,7 +11,7 @@ const Home = () => {
           </h1>
         </div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
-          I am a fullstack developer from{" "}
+          I am a <mark>fullstack</mark> developer from{" "}
           <span className="italic font-semibold text-gray-600">
             Lagos, Nigeria.
           </span>{" "}
