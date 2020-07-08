@@ -62,7 +62,7 @@ const WorkWithMe = () => {
         >
           <mark>Read my articles.</mark>
         </h1>
-        <p className="text-center md:text-2xl" data-sal="slide-down">
+        <p className="text-center text-2xl" data-sal="slide-down">
           <a
             href="https://dev.to/@debosthefirst"
             target="_blank"
