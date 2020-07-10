@@ -2,7 +2,13 @@ import React from "react";
 import TextLoop from "react-text-loop";
 import ScrollIntoView from "react-scroll-into-view";
 
-const Home = () => {
+const Home = ({ ga }) => {
+  const handleClick = () => {
+    ga.event({
+      category: "Click",
+      action: "Work with me from Home",
+    });
+  };
   return (
     <div className="min-h-screen pt-20 md:flex justify-around items-center px-10 ">
       <div className="max-w-xs md:max-w-2xl lg:max-w-4xl">
@@ -29,7 +35,10 @@ const Home = () => {
         </h1>
         <div>
           <ScrollIntoView selector="#work-with-me">
-            <button className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text">
+            <button
+              className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text"
+              onClick={handleClick}
+            >
               WORK WITH ME
             </button>
           </ScrollIntoView>

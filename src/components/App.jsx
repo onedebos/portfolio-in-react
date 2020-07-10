@@ -28,8 +28,8 @@ export default function App() {
           content="Adebola Adeniran - Fullstack Engineer"
         />
       </Helmet>
-      <Menu />
-      <Home />
+      <Menu ga={ReactGA} />
+      <Home ga={ReactGA} />
       <Pro projects={projects} />
       <WorkWithMe />
       <Foot />
