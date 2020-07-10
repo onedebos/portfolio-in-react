@@ -10,11 +10,12 @@ import "../../node_modules/sal.js/dist/sal.css";
 import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 
+ReactGA.initialize("UA-171680853-2");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 export default function App() {
   useEffect(() => {
     sal();
-    ReactGA.initialize("UA-171680853-2");
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
@@ -31,7 +32,7 @@ export default function App() {
       <Menu ga={ReactGA} />
       <Home ga={ReactGA} />
       <Pro projects={projects} />
-      <WorkWithMe />
+      <WorkWithMe ga={ReactGA} />
       <Foot />
     </div>
   );

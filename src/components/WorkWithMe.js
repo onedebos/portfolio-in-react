@@ -1,6 +1,13 @@
 import React from "react";
 
-const WorkWithMe = () => {
+const WorkWithMe = ({ ga }) => {
+  const handleClick = () => {
+    ga.event({
+      category: "Click",
+      action: "clicked link to resume",
+    });
+  };
+
   return (
     <div
       className="px-8 py-20 md:py-40 md:max-w-2xl lg:max-w-5xl m-auto mb-8"
@@ -50,6 +57,7 @@ const WorkWithMe = () => {
             href="https://drive.google.com/file/d/1NWlP25IMbtSPpUCKuEPqBFmHaMfwKoJC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick}
           >
             resume
           </a>
