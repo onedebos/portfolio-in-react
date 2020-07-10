@@ -10,15 +10,15 @@ import "../../node_modules/sal.js/dist/sal.css";
 import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 
-ReactGA.initialize("UA-171680853-2");
-
 export default function App() {
   useEffect(() => {
     sal();
+    ReactGA.initialize("UA-171680853-2");
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Adebola | Fullstack Engineer</title>

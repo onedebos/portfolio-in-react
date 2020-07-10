@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const Pro = ({ projects }) => {
   return (
-    <div className="py-10 ">
+    <div>
       <div className="font-bold text-3xl md:text-6xl mb-8 md:mb-20 text-center">
         <mark>Some of my Projects.</mark>
       </div>
