@@ -1,6 +1,12 @@
 import React from "react";
 
-const Project = ({ project }) => {
+const Project = ({ project, ga }) => {
+  const handleClick = (action) => {
+    ga.event({
+      category: "Click",
+      action,
+    });
+  };
   return (
     <div
       className="px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20"
@@ -23,6 +29,9 @@ const Project = ({ project }) => {
           <a
             href={project.ghLink}
             target="_blank"
+            onClick={handleClick(
+              `Clicked github link to ${project.projectName}`
+            )}
             rel="noopener noreferrer"
             className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text"
           >
@@ -32,6 +41,7 @@ const Project = ({ project }) => {
             href={project.projectUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`Clicked live link to ${project.projectName}`)}
             className="ml-2 font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text w-full"
           >
             live demo
@@ -39,7 +49,14 @@ const Project = ({ project }) => {
         </div>
       </div>
       <div className="flex-1 md:mt-4">
-        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
+        <a
+          href={project.projectUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={handleClick(
+            `Clicked image with link to ${project.projectName}`
+          )}
+        >
           <img
             data-sal="slide-right"
             src={project.imgUrl}

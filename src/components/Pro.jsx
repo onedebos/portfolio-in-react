@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 
-const Pro = ({ projects }) => {
+const Pro = ({ projects, ga }) => {
   return (
     <div>
       <div className="font-bold text-3xl md:text-6xl mb-8 md:mb-20 text-center">
@@ -10,7 +10,7 @@ const Pro = ({ projects }) => {
       {projects.map((project, index) => {
         return (
           <>
-            <Project project={project} />{" "}
+            <Project project={project} ga={ga} />
           </>
         );
       })}

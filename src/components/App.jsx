@@ -31,7 +31,7 @@ export default function App() {
       </Helmet>
       <Menu ga={ReactGA} />
       <Home ga={ReactGA} />
-      <Pro projects={projects} />
+      <Pro projects={projects} ga={ReactGA} />
       <WorkWithMe ga={ReactGA} />
       <Foot />
     </div>

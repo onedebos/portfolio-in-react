@@ -1,10 +1,10 @@
 import React from "react";
 
 const WorkWithMe = ({ ga }) => {
-  const handleClick = () => {
+  const handleClick = (action) => {
     ga.event({
       category: "Click",
-      action: "clicked link to resume",
+      action,
     });
   };
 
@@ -25,6 +25,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://github.com/onedebos/"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to github profile.`)}
           >
             github
           </a>
@@ -33,6 +34,7 @@ const WorkWithMe = ({ ga }) => {
             href="mailto: adebola.rb.js@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to email.`)}
           >
             email
           </a>
@@ -41,6 +43,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://www.linkedin.com/in/adebola-niran"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to linkedin.`)}
           >
             linkedin
           </a>
@@ -49,6 +52,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://twitter.com/debosthefirst"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to twitter.`)}
           >
             twitter
           </a>
@@ -57,13 +61,13 @@ const WorkWithMe = ({ ga }) => {
             href="https://drive.google.com/file/d/1NWlP25IMbtSPpUCKuEPqBFmHaMfwKoJC/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            onClick={handleClick}
+            onClick={handleClick(`clicked link to resume`)}
           >
             resume
           </a>
         </p>
       </div>
-      <div className="mt-8 mb-20 pr-10">
+      <div className="mt-8 pr-10">
         <div
           className="text-center font-bold text-4xl md:text-6xl"
           data-sal="slide-right"
@@ -75,6 +79,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://dev.to/@debosthefirst"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to dev.to.`)}
           >
             dev.to
           </a>
@@ -83,6 +88,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://hackernoon.com/@adebola"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to hackernoon.`)}
           >
             hackernoon
           </a>
@@ -91,6 +97,7 @@ const WorkWithMe = ({ ga }) => {
             href="https://medium.com/@adebola.niran"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to medium.`)}
           >
             medium
           </a>{" "}
@@ -107,9 +114,29 @@ const WorkWithMe = ({ ga }) => {
             href="https://www.freecodecamp.org/news/author/adebola/"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleClick(`clicked link to fcc.`)}
           >
             freeCodeCamp
           </a>
+        </div>
+      </div>
+      <div className="mt-8 mb-20 pr-10">
+        <div
+          className="text-center font-bold text-4xl md:text-6xl"
+          data-sal="slide-right"
+        >
+          <mark>Open source.</mark>
+        </div>
+        <div className="text-center text-2xl" data-sal="slide-down">
+          <a
+            href="https://npmjs.com/package/naija-faker"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleClick(`clicked link naija-faker package.`)}
+          >
+            naija-faker(NPM)
+          </a>
+          &nbsp;&nbsp;
         </div>
       </div>
     </div>
