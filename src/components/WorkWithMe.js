@@ -134,9 +134,17 @@ const WorkWithMe = ({ ga }) => {
             rel="noopener noreferrer"
             onClick={handleClick(`clicked link naija-faker package.`)}
           >
-            naija-faker(NPM)
+            naija-faker(<strong>NPM</strong>)
           </a>
           &nbsp;&nbsp;
+          <a
+            href="https://rubygems.org/gems/naija-faker/versions/1.0.1"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleClick(`clicked link naija-faker ruby gem.`)}
+          >
+            naija-faker(<strong>RubyGem</strong>)
+          </a>
         </div>
       </div>
     </div>
