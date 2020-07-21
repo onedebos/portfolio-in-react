@@ -1,1 +1,2 @@
-src/styles/*.css linguist-detectable
+ src/styles/*.css linguist-detectable
+ *.css linguist-detectable
