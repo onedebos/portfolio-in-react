@@ -6,7 +6,7 @@ const Menu = ({ ga }) => {
   const handleClick = () => {
     ga.event({
       category: "Click",
-      action: "Work with me from menu",
+      action: "SEE PROJECTS from menu",
     });
   };
   return (
@@ -14,12 +14,12 @@ const Menu = ({ ga }) => {
       <div className="flex justify-around px-10">
         <div className="text-4xl font-bold text-yellow-600">AA</div>
         <div>
-          <ScrollIntoView selector="#work-with-me">
+          <ScrollIntoView selector="#projects">
             <button
               className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm button text"
               onClick={handleClick}
             >
-              WORK WITH ME
+              SEE PROJECTS
             </button>
           </ScrollIntoView>
         </div>
