@@ -1,3 +1,12 @@
+html {
+  font-family: Nunito;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .button {
   background: linear-gradient(to right, black 50%, #e2e8f0 50%);
   background-size: 200% 100%;
