@@ -1,5 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: [
+  './src/App.jsx',
+    './src/Foot.jsx',
+    './src/Home.jsx',
+    './src/Menu.js',
+    './src/Pro.jsx',
+    './src/Project.jsx',
+    './src/WorkWithMe.js'
+  ],
   target: "relaxed",
   prefix: "",
   important: false,
