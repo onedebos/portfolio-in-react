@@ -41,7 +41,7 @@ export default function App() {
         />
 
         <meta
-          name="Adebola Adeniran - Fullstack Engineer, Software developer"
+          name="description"
           content="Adebola Adeniran - Fullstack Engineer"
         />
       </Helmet>
