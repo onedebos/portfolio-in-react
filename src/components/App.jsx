@@ -11,7 +11,6 @@ import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
-import "../styles/Circles.css";
 
 ReactGA.initialize("UA-171680853-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
