@@ -10,7 +10,7 @@ const Menu = ({ ga }) => {
     });
   };
   return (
-    <div className="bg-gray-200 p-1 py-3">
+    <div className="bg-white p-1 py-3">
       <div className="flex justify-around px-10">
         <div className="text-4xl font-bold text-yellow-600">AA</div>
         <div>

@@ -5,6 +5,19 @@ html {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+
+.home {
+  background: linear-gradient(to left, #f6f6f6 50%, #eceef0 50%);
+}
+
+.work-bg {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 0, 0.192) 50%,
+    rgb(247, 247, 231) 50%
+  );
 }
 
 .button {
@@ -53,5 +66,45 @@ mark {
 
   .reverse:nth-child(odd) > .reverse-text {
     padding-left: 3em;
+  }
+
+  .circles:after {
+    content: "";
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background: transparent;
+    right: -14vw;
+    bottom: -10vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 5vw #32353d;
+    z-index: 1;
+  }
+}
+@media (min-width: 968px) {
+  .circles:after {
+    content: "";
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background: transparent;
+    right: -10vw;
+    top: 40vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 3vw #2c303d;
+    z-index: 1;
+  }
+
+  .circles:before {
+    content: "";
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background: transparent;
+    left: -9vw;
+    top: 10vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 3vw #d69e2e;
+    z-index: 1;
   }
 }
