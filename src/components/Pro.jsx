@@ -4,7 +4,7 @@ import Project from "./Project";
 const Pro = ({ projects, ga }) => {
   return (
     <div id="projects">
-      <div className="font-bold text-3xl md:text-6xl mb-8 md:mb-20 text-center mt-4 bg-gray-100">
+      <div className="font-bold text-3xl md:text-6xl mb-8 md:mb-20 text-center md:mt-8">
         <mark>Some of my Projects.</mark>
       </div>
       {projects.map((project) => {
