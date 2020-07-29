@@ -58,13 +58,12 @@ const Project = ({ project, ga }) => {
             `Clicked image with link to ${project.projectName}`
           )}
         >
-          <LazyLoad>
+          <LazyLoad height={200}>
             <img
               // data-sal="slide-right"
               src={project.imgUrl}
               alt={project.projectName}
-              classNam
-              e="rounded-md"
+              className="rounded-md circles"
             />
           </LazyLoad>
         </a>

@@ -11,6 +11,7 @@ import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
+import "../styles/Circles.css";
 
 ReactGA.initialize("UA-171680853-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -21,7 +22,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden app">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Adebola | Fullstack Engineer</title>

@@ -9,8 +9,10 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
+
 /* purgecss end ignore */
 @tailwind components;
+
 .home {
   background: linear-gradient(to left, #f6f6f6 50%, #eceef0 50%);
 }
@@ -62,6 +64,39 @@ mark {
   background-position: left bottom;
 }
 
+.app {
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media (max-width: 576px) {
+  .circles:before {
+    content: "";
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background: transparent;
+    left: -20vw;
+    top: 155vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 7vw #2c303d;
+    z-index: 0;
+  }
+
+  .circles:after {
+    content: "";
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background: transparent;
+    right: -20vw;
+    top: 125vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 7vw #ecc94b;
+    z-index: 1;
+  }
+}
+
 @media (min-width: 768px) {
   .reverse:nth-child(odd) {
     flex-direction: row-reverse;
@@ -71,6 +106,18 @@ mark {
     padding-left: 3em;
   }
 
+  .circles:before {
+    content: "";
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background: transparent;
+    left: -14vw;
+    top: 10vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 5vw #ecc94b;
+    z-index: 1;
+  }
   .circles:after {
     content: "";
     position: absolute;
@@ -78,7 +125,7 @@ mark {
     width: 50vw;
     background: transparent;
     right: -14vw;
-    bottom: -10vw;
+    top: 70vw;
     border-radius: 100%;
     box-shadow: inset 0px 0px 0px 5vw #32353d;
     z-index: 1;
@@ -107,7 +154,7 @@ mark {
     left: -9vw;
     top: 10vw;
     border-radius: 100%;
-    box-shadow: inset 0px 0px 0px 3vw #d69e2e;
+    box-shadow: inset 0px 0px 0px 3vw #ecc94b;
     z-index: 1;
   }
 }
