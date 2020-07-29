@@ -1,4 +1,114 @@
 @tailwind base;
 @tailwind components;
+html {
+  font-family: Nunito;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.home {
+  background: linear-gradient(to left, #f6f6f6 50%, #eceef0 50%);
+}
+
+.work-bg {
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 0, 0.192) 50%,
+    rgb(247, 247, 231) 50%
+  );
+}
+
+.button {
+  background: linear-gradient(to right, black 50%, #e2e8f0 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.button:hover {
+  background-position: left bottom;
+}
+
+.text {
+  transition: all 0.6s ease-out;
+}
+
+.text:hover {
+  color: white;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0;
+  padding-bottom: 0.4em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  background-color: #ecc94b;
+}
+
+.pro-button {
+  background: linear-gradient(to right, #ecc94b 50%, #ffffff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+
+.pro-button:hover {
+  background-position: left bottom;
+}
+
+@media (min-width: 768px) {
+  .reverse:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .reverse:nth-child(odd) > .reverse-text {
+    padding-left: 3em;
+  }
+
+  .circles:after {
+    content: "";
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background: transparent;
+    right: -14vw;
+    bottom: -10vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 5vw #32353d;
+    z-index: 1;
+  }
+}
+@media (min-width: 968px) {
+  .circles:after {
+    content: "";
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background: transparent;
+    right: -10vw;
+    top: 40vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 3vw #2c303d;
+    z-index: 1;
+  }
+
+  .circles:before {
+    content: "";
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    background: transparent;
+    left: -9vw;
+    top: 10vw;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px 3vw #d69e2e;
+    z-index: 1;
+  }
+}
 
 @tailwind utilities;

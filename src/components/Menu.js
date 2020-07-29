@@ -1,6 +1,5 @@
 import React from "react";
 import ScrollIntoView from "react-scroll-into-view";
-import "../styles/Menu.css";
 
 const Menu = ({ ga }) => {
   const handleClick = () => {
