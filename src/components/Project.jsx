@@ -13,7 +13,7 @@ const Project = ({ project, ga }) => {
       className="px-12 md:px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20 reverse-bg"
       key={project.id}
     >
-      <div className="flex-1 reverse-text">
+      <div className="flex-1 reverse-text m-auto">
         <h1 className="font-bold text-4xl" data-sal="slide-up">
           {project.projectName}
         </h1>

@@ -1,5 +1,5 @@
 @tailwind base;
-@tailwind components;
+/* purgecss start ignore */
 html {
   font-family: Nunito;
 }
@@ -9,7 +9,8 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-
+/* purgecss end ignore */
+@tailwind components;
 .home {
   background: linear-gradient(to left, #f6f6f6 50%, #eceef0 50%);
 }
