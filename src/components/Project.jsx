@@ -10,7 +10,7 @@ const Project = ({ project, ga }) => {
   };
   return (
     <div
-      className="px-12 md:px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20 reverse-bg"
+      className="px-8 md:max-w-2xl lg:max-w-5xl md:flex m-auto mb-8 reverse lg:mt-20 reverse-bg"
       key={project.id}
     >
       <div className="flex-1 reverse-text m-auto">
