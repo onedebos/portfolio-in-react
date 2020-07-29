@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 
 const Project = ({ project, ga }) => {
   const handleClick = (action) => {
@@ -57,12 +58,15 @@ const Project = ({ project, ga }) => {
             `Clicked image with link to ${project.projectName}`
           )}
         >
-          <img
-            data-sal="slide-right"
-            src={project.imgUrl}
-            alt={project.projectName}
-            className="rounded-md"
-          />
+          <LazyLoad>
+            <img
+              // data-sal="slide-right"
+              src={project.imgUrl}
+              alt={project.projectName}
+              classNam
+              e="rounded-md"
+            />
+          </LazyLoad>
         </a>
       </div>
     </div>
