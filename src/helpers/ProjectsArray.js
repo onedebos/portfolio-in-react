@@ -2,6 +2,17 @@ const projects = [
   {
     id: 1,
     description:
+      "An app for writers to have total control over the PDFs they share.",
+    projectName: "Filelockrr",
+    projectBuiltWith: "Google Cloud / Amazon S3 / React / Sails.js / Node.js",
+    projectUrl: "https://filelockrr.com",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1596301552/personal-portfolio/filelockrr_steone.png",
+    ghLink: "https://github.com/onedebos/",
+  },
+  {
+    id: 2,
+    description:
       "A Customer support ticketing system that allows Support agents and customers leave comments on Tickets.",
     projectName: "SuperSupport",
     projectBuiltWith: "Rails/React/Redux toolkit/TailwindCSS",
@@ -11,7 +22,7 @@ const projects = [
     ghLink: "https://github.com/onedebos/super_support/tree/master",
   },
   {
-    id: 2,
+    id: 3,
     description:
       "A wedding register that allows friends leave goodwill messages and buy gifts for a couple.",
     projectName: "Prewedding",
@@ -20,17 +31,6 @@ const projects = [
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1592690204/personal-portfolio/Screen_Shot_2020-06-20_at_22.54.46_hwsypz.png",
     ghLink: "https://github.com/onedebos/FandO",
-  },
-  {
-    id: 3,
-    description:
-      "An app for food vendors in Nigeria to showcase some of their best meals by uploading them, while allowing customers book them for their events.",
-    projectName: "Foodies",
-    projectBuiltWith: "Rails, React and Redux",
-    projectUrl: "https://foodies-stop.netlify.app/",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
-    ghLink: "https://github.com/Tripple-A/Chef-React-App",
   },
   {
     id: 4,
@@ -88,17 +88,6 @@ const projects = [
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594035373/personal-portfolio/adebola-dev-mediquik_kt6psq.png",
     ghLink: "https://github.com/onedebos/",
-  },
-  {
-    id: 9,
-    description:
-      "An application that allows individuals seeking mental health services book appointments with mental health service providers across Nigeria.",
-    projectName: "Mentally",
-    projectBuiltWith: "Rails API/React/Redux",
-    projectUrl: "https://awesome-kare-c984ee.netlify.com",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582185345/personal-portfolio/app_screenshot_mvkavi.png",
-    ghLink: "https://github.com/onedebos/mentaLY-rails-API",
   },
 ];
 
