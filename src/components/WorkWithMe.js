@@ -146,6 +146,15 @@ const WorkWithMe = ({ ga }) => {
             >
               naija-faker(<strong>RubyGem</strong>)
             </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://www.npmjs.com/package/react-direction"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClick(`clicked link react-direction NPM package.`)}
+            >
+              react-direction(<strong>NPM</strong>)
+            </a>
           </div>
         </div>
       </div>
