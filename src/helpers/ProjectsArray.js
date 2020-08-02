@@ -5,7 +5,7 @@ const projects = [
       "An app for writers to have total control over the PDFs they share.",
     projectName: "Filelockrr",
     projectBuiltWith:
-      "Google Cloud / Amazon S3 / React / Sails.js / Node.js / TypeScript",
+      "Google Cloud / Amazon S3 / React / Sails.js / Node.js / TypeScript / MongoDB",
     projectUrl: "https://filelockrr.com",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1596301552/personal-portfolio/filelockrr_steone.png",
