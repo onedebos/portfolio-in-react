@@ -8,6 +8,7 @@ import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
 import Loading from "./Loading";
+import Pro from "./Pro";
 
 ReactGA.initialize("UA-171680853-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -19,7 +20,7 @@ export default function App() {
 
   const Menu = lazy(() => import("./Menu"));
   const Home = lazy(() => import("./Home"));
-  const Pro = lazy(() => import("./Pro"));
+  // const Pro = lazy(() => import("./Pro"));
   const Foot = lazy(() => import("./Foot"));
 
   return (
@@ -47,6 +48,7 @@ export default function App() {
           content="Adebola Adeniran - Fullstack Engineer"
         />
       </Helmet>
+
       <Suspense fallback={<Loading />}>
         <Menu ga={ReactGA} />
         <Home ga={ReactGA} />
