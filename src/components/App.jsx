@@ -1,16 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
-import Menu from "./Menu";
-import Home from "./Home";
-import Pro from "./Pro";
-import Foot from "./Foot";
 import sal from "sal.js";
 import "../../node_modules/sal.js/dist/sal.css";
 import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
+import Loading from "./Loading";
 
 ReactGA.initialize("UA-171680853-2");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -19,6 +16,11 @@ export default function App() {
   useEffect(() => {
     sal();
   }, []);
+
+  const Menu = lazy(() => import("./Menu"));
+  const Home = lazy(() => import("./Home"));
+  const Pro = lazy(() => import("./Pro"));
+  const Foot = lazy(() => import("./Foot"));
 
   return (
     <div className="overflow-hidden app">
@@ -45,11 +47,13 @@ export default function App() {
           content="Adebola Adeniran - Fullstack Engineer"
         />
       </Helmet>
-      <Menu ga={ReactGA} />
-      <Home ga={ReactGA} />
-      <Pro projects={projects} ga={ReactGA} />
-      <WorkWithMe ga={ReactGA} />
-      <Foot />
+      <Suspense fallback={<Loading />}>
+        <Menu ga={ReactGA} />
+        <Home ga={ReactGA} />
+        <Pro projects={projects} ga={ReactGA} />
+        <WorkWithMe ga={ReactGA} />
+        <Foot />
+      </Suspense>
     </div>
   );
 }
