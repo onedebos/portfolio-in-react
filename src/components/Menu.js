@@ -8,14 +8,30 @@ const Menu = ({ ga }) => {
       action: "SEE PROJECTS from menu",
     });
   };
+
+  const trackBlog = () => {
+    ga.event({
+      category: "Click",
+      action: "To blog",
+    });
+  };
   return (
     <div className="bg-white p-1 py-3">
       <div className="flex justify-around px-10">
-        <div className="text-4xl font-bold text-yellow-600">AA</div>
-        <div>
+        <div className="hidden md:block text-4xl font-bold text-yellow-600">
+          AA
+        </div>
+        <div className="flex justify-between">
+          <a
+            href="https://blog.adebola.dev"
+            className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-3 text-sm button text mr-2"
+            onClick={trackBlog}
+          >
+            READ BLOG
+          </a>
           <ScrollIntoView selector="#projects">
             <button
-              className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm button text"
+              className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-3 text-sm button text"
               onClick={handleClick}
             >
               SEE PROJECTS
