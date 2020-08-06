@@ -119,6 +119,15 @@ const WorkWithMe = ({ ga }) => {
             >
               freeCodeCamp
             </a>
+            &nbsp;&nbsp;
+            <a
+              href="https://blog.adebola.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClick(`clicked link to blog from publications.`)}
+            >
+              blog
+            </a>
           </div>
         </div>
         <div className="mt-8 mb-20 pr-10">
