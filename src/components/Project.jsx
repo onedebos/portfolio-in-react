@@ -28,15 +28,15 @@ const Project = ({ project, ga }) => {
         </p>
         <div className="mb-8" data-sal="slide-right">
           <a
-            href={project.ghLink}
-            target="_blank"
+            href={project.ghLink.length < 1 ? "#" : project.ghLink}
+            target={project.ghLink.length < 1 ? "" : "_blank"}
             onClick={handleClick(
               `Clicked github link to ${project.projectName}`
             )}
             rel="noopener noreferrer"
             className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text"
           >
-            see it on github
+            {project.ghLink.length < 1 ? "private repo" : "see it on github"}
           </a>
           <a
             href={project.projectUrl}

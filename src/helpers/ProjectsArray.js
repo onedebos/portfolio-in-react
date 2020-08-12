@@ -9,7 +9,7 @@ const projects = [
     projectUrl: "https://filelockrr.com",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1596301552/personal-portfolio/filelockrr_steone.png",
-    ghLink: "https://github.com/onedebos/",
+    ghLink: "",
   },
   {
     id: 2,
