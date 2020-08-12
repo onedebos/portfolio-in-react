@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     description:
-      "An app for writers to have total control over the PDFs they share.",
+      "An app for writers to have total control over the PDFs they share. Currently being used by around 50 users.",
     projectName: "Filelockrr",
     projectBuiltWith:
       "Google Cloud / Amazon S3 / React / Sails.js / Node.js / TypeScript / MongoDB",
