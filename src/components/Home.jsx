@@ -33,16 +33,15 @@ const Home = ({ ga }) => {
             <span className="text-yellow-600 z-40">Adobe illustrator.</span>
           </TextLoop>
         </h1>
-        <div>
-          <ScrollIntoView selector="#work-with-me">
-            <button
-              className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text z-40"
-              onClick={handleClick}
-            >
-              WORK WITH ME
-            </button>
-          </ScrollIntoView>
-        </div>
+
+        <ScrollIntoView selector="#work-with-me">
+          <button
+            className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text z-10"
+            onClick={handleClick}
+          >
+            WORK WITH ME
+          </button>
+        </ScrollIntoView>
       </div>
     </div>
   );

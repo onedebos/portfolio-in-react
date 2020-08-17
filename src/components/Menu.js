@@ -35,7 +35,7 @@ const Menu = ({ ga, inView }) => {
         <nav
           id="site-menu"
           className={`flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none bg-gray-200 ${
-            !inView ? "md:bg-white" : "md:bg-red-500"
+            !inView ? "md:bg-white" : ""
           }`}
         >
           <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">

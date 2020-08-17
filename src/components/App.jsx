@@ -10,7 +10,6 @@ import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
 import Loading from "./Loading";
 import Pro from "./Pro";
-import "../styles/tailwind.css";
 
 // if (process.env.NODE_ENV !== "development") {
 ReactGA.initialize("UA-171680853-2");
