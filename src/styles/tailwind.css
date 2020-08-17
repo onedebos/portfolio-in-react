@@ -150,7 +150,7 @@ mark {
     width: 50vw;
     background: transparent;
     left: -20vw;
-    top: 155vw;
+    top: 125vw;
     border-radius: 100%;
     box-shadow: inset 0px 0px 0px 7vw #2c303d;
     z-index: 0;
@@ -189,7 +189,7 @@ mark {
     top: 10vw;
     border-radius: 100%;
     box-shadow: inset 0px 0px 0px 5vw #ecc94b;
-    z-index: 1;
+    z-index: 0;
   }
   .circles:after {
     content: "";

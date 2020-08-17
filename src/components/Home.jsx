@@ -11,7 +11,7 @@ const Home = ({ ga }) => {
   };
   return (
     <div className="min-h-screen pt-40 md:pt-20 md:flex justify-around items-center px-10 home circles">
-      <div className="max-w-xs md:max-w-2xl lg:max-w-4xl z-40 home-container">
+      <div className="max-w-xs md:max-w-2xl lg:max-w-4xl home-container z-10">
         <div>
           <h1 className="text-4xl md:text-6xl font-bold ">Hi, I'm Adebola.</h1>
         </div>

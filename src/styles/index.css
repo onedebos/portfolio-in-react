@@ -759,10 +759,11 @@ mark {
     width: 50vw;
     background: transparent;
     left: -20vw;
-    top: 155vw;
+    top: 125vw;
     border-radius: 100%;
     box-shadow: inset 0px 0px 0px 7vw #2c303d;
     z-index: 0;
+    display: none;
   }
 
   .circles:after {
