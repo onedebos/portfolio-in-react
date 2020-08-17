@@ -1,5 +1,5 @@
 import React, { useEffect, lazy, Suspense } from "react";
-import { useInView, InView } from "react-intersection-observer";
+// import { useInView, InView } from "react-intersection-observer";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import sal from "sal.js";
@@ -17,10 +17,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 // }
 
 export default function App() {
-  const [ref, inView] = useInView({
-    /* Optional options */
-    threshold: 0,
-  });
+  // const [ref, inView] = useInView({
+  //   /* Optional options */
+  //   threshold: 0,
+  // });
 
   useEffect(() => {
     let mounted = true;
@@ -64,11 +64,12 @@ export default function App() {
       </Helmet>
 
       <Suspense fallback={<Loading />}>
-        <InView>
-          <Menu ga={ReactGA} inView={inView} />
-        </InView>
+        {/* <InView>
+          <Menu ga={ReactGA} inView={false} />
+        </InView> */}
+        <Menu ga={ReactGA} inView={false} />
         <Home ga={ReactGA} />
-        <Pro projects={projects} ga={ReactGA} theRef={ref} inView={inView} />
+        <Pro projects={projects} ga={ReactGA} inView={false} />
 
         <WorkWithMe ga={ReactGA} />
         <Foot />

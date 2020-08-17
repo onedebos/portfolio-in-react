@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollIntoView from "react-scroll-into-view";
 
-const Menu = ({ ga, inView }) => {
+const Menu = ({ ga }) => {
   const handleClick = () => {
     ga.event({
       category: "Click",
@@ -27,16 +27,13 @@ const Menu = ({ ga, inView }) => {
 
   return (
     <div className="bg-white">
-      {/* {console.log("menu", inView)} */}
       <header
         id="top"
         className="w-full flex flex-col fixed pin-t pin-r pin-l lg:max-w-full m-auto z-20"
       >
         <nav
           id="site-menu"
-          className={`flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none bg-gray-200 ${
-            !inView ? "md:bg-white" : ""
-          }`}
+          className="flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none bg-gray-200 md:bg-white"
         >
           <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
             <a href="/" className="py-1">

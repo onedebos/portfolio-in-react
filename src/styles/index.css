@@ -762,7 +762,8 @@ mark {
     top: 125vw;
     border-radius: 100%;
     box-shadow: inset 0px 0px 0px 7vw #2c303d;
-    z-index: 0;
+    z-index: 1;
+    display: none;
   }
 
   .circles:after {
