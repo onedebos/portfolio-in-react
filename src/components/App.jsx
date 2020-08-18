@@ -1,5 +1,5 @@
-import React, { useEffect, lazy, Suspense } from "react";
-// import { useInView, InView } from "react-intersection-observer";
+import React, { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import sal from "sal.js";
@@ -8,8 +8,10 @@ import projects from "../helpers/ProjectsArray";
 import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
-import Loading from "./Loading";
 import Pro from "./Pro";
+import Home from "./Home";
+import Foot from "./Foot";
+import Menu from "./Menu";
 
 // if (process.env.NODE_ENV !== "development") {
 ReactGA.initialize("UA-171680853-2");
@@ -17,10 +19,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 // }
 
 export default function App() {
-  // const [ref, inView] = useInView({
-  //   /* Optional options */
-  //   threshold: 0,
-  // });
+  const [ref, inView] = useInView({
+    //   /* Optional options */
+    //   threshold: 0,
+  });
 
   useEffect(() => {
     let mounted = true;
@@ -32,10 +34,6 @@ export default function App() {
       mounted = false;
     };
   }, []);
-
-  const Menu = lazy(() => import("./Menu"));
-  const Home = lazy(() => import("./Home"));
-  const Foot = lazy(() => import("./Foot"));
 
   return (
     <div className="overflow-hidden app obs">
@@ -63,17 +61,13 @@ export default function App() {
         />
       </Helmet>
 
-      <Suspense fallback={<Loading />}>
-        {/* <InView>
-          <Menu ga={ReactGA} inView={false} />
-        </InView> */}
-        <Menu ga={ReactGA} inView={false} />
-        <Home ga={ReactGA} />
-        <Pro projects={projects} ga={ReactGA} inView={false} />
+      <Menu ga={ReactGA} inView={inView} />
 
-        <WorkWithMe ga={ReactGA} />
-        <Foot />
-      </Suspense>
+      <Home ga={ReactGA} />
+      <Pro projects={projects} ga={ReactGA} theRef={ref} inView={inView} />
+
+      <WorkWithMe ga={ReactGA} />
+      <Foot />
     </div>
   );
 }

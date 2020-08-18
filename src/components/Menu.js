@@ -1,7 +1,7 @@
 import React from "react";
 import ScrollIntoView from "react-scroll-into-view";
 
-const Menu = ({ ga }) => {
+const Menu = ({ ga, inView }) => {
   const handleClick = () => {
     ga.event({
       category: "Click",
@@ -33,11 +33,21 @@ const Menu = ({ ga }) => {
       >
         <nav
           id="site-menu"
-          className="flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none bg-gray-200 md:bg-white"
+          className={`flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none ${
+            !inView
+              ? "bg-gray-200 md:bg-white"
+              : "bg-yellow-500 md:bg-gray-900 transition duration-500 ease-in-out"
+          }`}
         >
           <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
             <a href="/" className="py-1">
-              <h1 className="font-bold text-4xl text-yellow-600">AA</h1>
+              <h1
+                className={`font-bold text-4xl  ${
+                  !inView ? "text-yellow-500" : "text-white"
+                }`}
+              >
+                AA
+              </h1>
             </a>
 
             <button
@@ -59,7 +69,7 @@ const Menu = ({ ga }) => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://blog.adebola.dev"
-              className="text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 md:border md:rounded-sm md:border-black md:px-6 button text"
+              className="text-lg w-full no-underline sm:w-auto sm:pr-4 py-2 sm:py-1 sm:pt-2 md:border md:rounded-sm md:border-black md:px-6 button text font-semibold"
             >
               READ BLOG
             </a>
@@ -70,7 +80,7 @@ const Menu = ({ ga }) => {
             >
               <button
                 onClick={handleClick}
-                className="text-dark text-lg no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2 md:border md:rounded-sm border-black md:px-6 button text md:ml-2 focus:outline-none"
+                className="text-dark text-lg no-underline sm:w-auto sm:px-4 py-2 sm:py-1 sm:pt-2 md:border md:rounded-sm border-black md:px-6 button text md:ml-2 focus:outline-none font-semibold"
               >
                 SEE PROJECTS
               </button>

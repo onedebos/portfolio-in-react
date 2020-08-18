@@ -90,6 +90,17 @@ const projects = [
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594035373/personal-portfolio/adebola-dev-mediquik_kt6psq.png",
     ghLink: "https://github.com/onedebos/",
   },
+  {
+    id: 9,
+    description:
+      "A simple typing game that tracks how many words and characters you can type per minute and compares your score to others who have played.",
+    projectName: "TypeFastr",
+    projectBuiltWith: "React / Redux / TypeScript / FireStore",
+    projectUrl: "https://type-fastr.netlify.app/",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1597738001/personal-portfolio/type-fastr_cdpt8k.png",
+    ghLink: "https://github.com/onedebos/type-fastr",
+  },
 ];
 
 export default projects;
