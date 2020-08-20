@@ -1,6 +1,10 @@
+const generateId = () => {
+  return Math.floor(Math.random() * 1000 + 1);
+};
+
 const projects = [
   {
-    id: 1,
+    id: generateId(),
     description:
       "An app for writers to have total control over the PDFs they share. Currently being used by around 50 users.",
     projectName: "Filelockrr",
@@ -12,18 +16,31 @@ const projects = [
     ghLink: "",
   },
   {
-    id: 2,
+    id: generateId(),
     description:
       "A Customer support ticketing system that allows Support agents and customers leave comments on Tickets.",
-    projectName: "SuperSupport",
+    projectNamid: 9,
+    e: "SuperSupport",
     projectBuiltWith: "Rails/React/Redux toolkit/TailwindCSS",
     projectUrl: "https://supersupport.netlify.app",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594212404/personal-portfolio/supersupport_qw1kye.png",
     ghLink: "https://github.com/onedebos/super_support/tree/master",
   },
+
   {
-    id: 3,
+    id: generateId(),
+    description:
+      "An app for food vendors in Nigeria to showcase some of their best meals by uploading them, while allowing customers book them for their events.",
+    projectName: "Foodies",
+    projectBuiltWith: "Rails / React / Redux",
+    projectUrl: "https://foodies-stop.netlify.app/",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1588931965/personal-portfolio/screenshot_fchiyf.png",
+    ghLink: "https://github.com/Tripple-A/Chef-React-App",
+  },
+  {
+    id: generateId(),
     description:
       "A wedding register that allows friends leave goodwill messages and buy gifts for a couple.",
     projectName: "Prewedding",
@@ -34,7 +51,7 @@ const projects = [
     ghLink: "https://github.com/onedebos/FandO",
   },
   {
-    id: 4,
+    id: generateId(),
     description:
       "A course catalogue website that allows you search for courses, see more information about a course and add a course to your cart.",
     projectName: "Lrn::Fast",
@@ -46,7 +63,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: generateId(),
     projectName: "CoronaQL",
     description:
       "A GraphQL server that allows frontend apps make GraphQL queries for the latest Covid-19 data",
@@ -58,7 +75,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: generateId(),
     description:
       "An app that lets you keep track of all your bank account numbers and that of your contacts.",
     projectName: "OwoNiKoko",
@@ -69,7 +86,7 @@ const projects = [
     ghLink: "https://github.com/onedebos/owonikoko",
   },
   {
-    id: 7,
+    id: generateId(),
     description:
       "A mini social networking site that allows you sign up with facebook, add friends, like posts and comment on posts",
     projectName: "MicroFacebook",
@@ -80,7 +97,7 @@ const projects = [
     ghLink: "https://github.com/onedebos/micro-facebook",
   },
   {
-    id: 8,
+    id: generateId(),
     description:
       "A landing page for signing up to a waitlist of an emergency healthcare service provider.",
     projectName: "Mediquik",
@@ -88,10 +105,10 @@ const projects = [
     projectUrl: "https://mediquik.netlify.app",
     imgUrl:
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594035373/personal-portfolio/adebola-dev-mediquik_kt6psq.png",
-    ghLink: "https://github.com/onedebos/",
+    ghLink: "https://github.com/onedebos/ngwa",
   },
   {
-    id: 9,
+    id: generateId(),
     description:
       "A simple typing game that tracks how many words and characters you can type per minute and compares your score to others who have played.",
     projectName: "TypeFastr",
