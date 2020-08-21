@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import "../styles/tailwind.css";
 
 const Pro = ({ projects, ga, theRef }) => {
   return (
