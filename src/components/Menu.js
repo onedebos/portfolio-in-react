@@ -35,7 +35,7 @@ const Menu = ({ ga, inView }) => {
           id="site-menu"
           className={`flex flex-col sm:flex-row w-full justify-around items-center px-4 sm:px-6 py-1 shadow sm:shadow-none ${
             !inView
-              ? "bg-gray-200 md:bg-white"
+              ? "bg-gray-200 md:bg-white transition duration-300 ease-in-out"
               : "bg-yellow-500 md:bg-gray-900 transition duration-500 ease-in-out"
           }`}
         >

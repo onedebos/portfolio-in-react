@@ -63,7 +63,7 @@ const Project = ({ project, ga }) => {
               // data-sal="slide-right"
               src={project.imgUrl}
               alt={project.projectName}
-              className="rounded-md circles"
+              className="rounded-md circles shadow-xl"
             />
           </LazyLoad>
         </a>
