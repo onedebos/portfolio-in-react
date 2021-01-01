@@ -15,22 +15,18 @@ const Home = ({ ga }) => {
         <div>
           <h1 className="text-4xl md:text-6xl font-bold ">Hi, I'm Adebola.</h1>
         </div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold">
-          I am a <mark>fullstack</mark> developer from{" "}
-          <span className="italic font-semibold text-gray-600">
-            Lagos, Nigeria.
-          </span>{" "}
-          I work with&nbsp;
+        <h1 className="text-4xl md:text-5xl lg:text-6xl">
+          <mark>Fullstack</mark> developer.
+          <br />
           <TextLoop>
+          <span className="text-yellow-600 z-40">Ruby on Rails.</span>
             <span className="pr-10 md:pr-0 text-yellow-600 z-40">React.</span>
             <span className="text-yellow-600 z-40">Node.js</span>
-            <span className="text-yellow-600 z-40">Ruby-on-Rails.</span>
             <span className="pr-10 md:pr-0 text-yellow-600 z-40">Ruby.</span>
             <span className="text-yellow-600 z-40">JavaScript.</span>
             <span className="text-yellow-600 z-40">MongoDB.</span>
             <span className="text-yellow-600 z-40">Express.</span>
             <span className="pr-6 md:pr-0 text-yellow-600 z-40">Figma.</span>
-            <span className="text-yellow-600 z-40">Adobe illustrator.</span>
           </TextLoop>
         </h1>
 
