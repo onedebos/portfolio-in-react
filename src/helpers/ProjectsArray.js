@@ -18,6 +18,28 @@ const projects = [
   {
     id: generateId(),
     description:
+      "Helping residents of Lagos find the best WiFi around them.",
+    projectName: "WhichWifi",
+    projectBuiltWith: "NextJS and Firebase",
+    projectUrl: "https://whichwifi.work",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/q_auto:good/v1609852811/personal-portfolio/Screenshot_2021-01-05_at_14.13.43_rfxslj.png",
+    ghLink: "https://github.com/onedebos/which-wifi",
+  },
+  {
+    id: generateId(),
+    description:
+      "A simple typing game that tracks how many words and characters you can type per minute and compares your score to others who have played.",
+    projectName: "TypeFastr",
+    projectBuiltWith: "React / Redux / TypeScript / FireStore",
+    projectUrl: "https://type-fastr.netlify.app/",
+    imgUrl:
+      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1597738001/personal-portfolio/type-fastr_cdpt8k.png",
+    ghLink: "https://github.com/onedebos/type-fastr",
+  },
+  {
+    id: generateId(),
+    description:
       "A Customer support ticketing system that allows Support agents and customers leave comments on Tickets.",
     projectNamid: 9,
     e: "SuperSupport",
@@ -74,17 +96,17 @@ const projects = [
     ghLink: "https://github.com/onedebos/corona-ql",
   },
 
-  {
-    id: generateId(),
-    description:
-      "An app that lets you keep track of all your bank account numbers and that of your contacts.",
-    projectName: "OwoNiKoko",
-    projectBuiltWith: "Rails/React/Context API",
-    projectUrl: "https://kind-edison-586550.netlify.com/",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
-    ghLink: "https://github.com/onedebos/owonikoko",
-  },
+  // {
+  //   id: generateId(),
+  //   description:
+  //     "An app that lets you keep track of all your bank account numbers and that of your contacts.",
+  //   projectName: "OwoNiKoko",
+  //   projectBuiltWith: "Rails/React/Context API",
+  //   projectUrl: "https://kind-edison-586550.netlify.com/",
+  //   imgUrl:
+  //     "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1583532804/iphoneMockupOwonikoko_a7o3ru.png",
+  //   ghLink: "https://github.com/onedebos/owonikoko",
+  // },
   {
     id: generateId(),
     description:
@@ -96,28 +118,7 @@ const projects = [
       "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1582245547/personal-portfolio/Screen_Shot_2020-02-21_at_01.38.39_cef8dh.png",
     ghLink: "https://github.com/onedebos/micro-facebook",
   },
-  {
-    id: generateId(),
-    description:
-      "A landing page for signing up to a waitlist of an emergency healthcare service provider.",
-    projectName: "Mediquik",
-    projectBuiltWith: "GatsbyJS",
-    projectUrl: "https://mediquik.netlify.app",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1594035373/personal-portfolio/adebola-dev-mediquik_kt6psq.png",
-    ghLink: "https://github.com/onedebos/ngwa",
-  },
-  {
-    id: generateId(),
-    description:
-      "A simple typing game that tracks how many words and characters you can type per minute and compares your score to others who have played.",
-    projectName: "TypeFastr",
-    projectBuiltWith: "React / Redux / TypeScript / FireStore",
-    projectUrl: "https://type-fastr.netlify.app/",
-    imgUrl:
-      "https://res.cloudinary.com/onedebeos/image/upload/f_auto,q_auto/v1597738001/personal-portfolio/type-fastr_cdpt8k.png",
-    ghLink: "https://github.com/onedebos/type-fastr",
-  },
+
 ];
 
 export default projects;
