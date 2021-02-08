@@ -59,7 +59,7 @@ const WorkWithMe = ({ ga }) => {
             </a>
             &nbsp;&nbsp;
             <a
-              href="https://drive.google.com/file/d/1pAJxk4Guc07q7w0WAcjytJtKGe8iIomS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1MX05MreJNM27sbJySaQuBVBnuBSjcnG1/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleClick(`clicked link to resume`)}
