@@ -11,7 +11,7 @@ const Subscribe = () => {
     return () => (loaded = false);
   }, []);
 
-  return <div></div>;
+  return <div> If you're not redirected immediately, click <a href="http://eepurl.com/hjRker" class="text-blue-500">here.</a></div>;
 };
 
 export default Subscribe;
