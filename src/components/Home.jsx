@@ -1,8 +1,13 @@
 import React from "react";
 import TextLoop from "react-text-loop";
 import ScrollIntoView from "react-scroll-into-view";
+import Menu from './Menu'
+import Pro from './Pro'
+import projects from "../helpers/ProjectsArray";
+import WorkWithMe from "./WorkWithMe";
+import Foot from "./Foot";
 
-const Home = ({ ga }) => {
+const Home = ({ ga, inView, ref }) => {
   const handleClick = () => {
     ga.event({
       category: "Click",
@@ -10,6 +15,9 @@ const Home = ({ ga }) => {
     });
   };
   return (
+    <div>
+      <Menu ga={ga} inView={inView} />
+    
     <div className="min-h-screen pt-40 md:pt-20 md:flex justify-around items-center px-10 home circles">
       <div className="max-w-xs md:max-w-2xl lg:max-w-4xl home-container z-10">
         <div>
@@ -39,6 +47,10 @@ const Home = ({ ga }) => {
           </button>
         </ScrollIntoView>
       </div>
+      </div>
+      <Pro projects={projects} ga={ga} theRef={ref} inView={inView} />
+      <WorkWithMe ga={ga} />
+      <Foot />
     </div>
   );
 };

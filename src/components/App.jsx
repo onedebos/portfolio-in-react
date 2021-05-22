@@ -5,13 +5,11 @@ import { Helmet } from "react-helmet";
 import sal from "sal.js";
 import "../../node_modules/sal.js/dist/sal.css";
 import projects from "../helpers/ProjectsArray";
-import WorkWithMe from "./WorkWithMe";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
-import Pro from "./Pro";
 import Home from "./Home";
-import Foot from "./Foot";
-import Menu from "./Menu";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Subscribe from "./Subscribe";
 
 // if (process.env.NODE_ENV !== "development") {
 ReactGA.initialize("UA-171680853-2");
@@ -36,38 +34,42 @@ export default function App() {
   }, []);
 
   return (
-    <div className="overflow-hidden app obs">
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Adebola | Fullstack Engineer</title>
-        <link rel="adebola adeniran" href="https://adebola.dev" />
-        <meta name="og:url" content={URL} />
-        <meta name="og:title" content={TITLE} />
-        <meta name="og:description" content={DESCRIPTION} />
-        <meta name="og:type" content={TYPE} />
-        <meta name="og:image" content={Debs} />
+    <BrowserRouter>
+      <div className="overflow-hidden app obs">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Adebola | Fullstack Engineer</title>
+          <link rel="adebola adeniran" href="https://adebola.dev" />
+          <meta name="og:url" content={URL} />
+          <meta name="og:title" content={TITLE} />
+          <meta name="og:description" content={DESCRIPTION} />
+          <meta name="og:type" content={TYPE} />
+          <meta name="og:image" content={Debs} />
 
-        <meta name="twitter:title" content={TITLE} />
-        <meta name="twitter:description" content={DESCRIPTION} />
-        <meta name="twitter:image" content={Debs} />
-        <meta
-          name="twitter:card"
-          content="A dev passionate about Jollof rice and plantain!"
-        />
+          <meta name="twitter:title" content={TITLE} />
+          <meta name="twitter:description" content={DESCRIPTION} />
+          <meta name="twitter:image" content={Debs} />
+          <meta
+            name="twitter:card"
+            content="A dev passionate about Jollof rice and plantain!"
+          />
 
-        <meta
-          name="description"
-          content="Adebola Adeniran - Fullstack Engineer"
-        />
-      </Helmet>
+          <meta
+            name="description"
+            content="Adebola Adeniran - Fullstack Engineer"
+          />
+        </Helmet>
 
-      <Menu ga={ReactGA} inView={inView} />
+        {/* <Home ga={ReactGA} inView={inView} /> */}
+        {/* <Pro projects={projects} ga={ReactGA} theRef={ref} inView={inView} /> */}
 
-      <Home ga={ReactGA} />
-      <Pro projects={projects} ga={ReactGA} theRef={ref} inView={inView} />
-
-      <WorkWithMe ga={ReactGA} />
-      <Foot />
-    </div>
+        {/* <WorkWithMe ga={ReactGA} /> */}
+        {/* <Foot /> */}
+      </div>
+      <Switch>
+        <Route exact path="/" component={()=> <Home ga={ReactGA} inView={inView} ref={ref} projects={projects} />} />
+        <Route path="/subscribe" component={Subscribe} />
+      </Switch>
+    </BrowserRouter>
   );
 }
