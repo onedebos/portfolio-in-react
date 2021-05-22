@@ -51,7 +51,7 @@ export default function App() {
           <meta name="twitter:image" content={Debs} />
           <meta
             name="twitter:card"
-            content="A dev passionate about Jollof rice and plantain!"
+            content="Fullstack Engineer, Content Creator, Building Communities."
           />
 
           <meta
