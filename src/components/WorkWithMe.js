@@ -85,13 +85,21 @@ const WorkWithMe = ({ ga }) => {
               dev.to
             </a>
             &nbsp;&nbsp;
-            <a
+            {/* <a
               href="https://hackernoon.com/@adebola"
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleClick(`clicked link to hackernoon.`)}
             >
               hackernoon
+            </a> */}
+            <a
+              href="https://blog.logrocket.com/author/adebolaadeniran/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleClick(`clicked link to LogRocket.`)}
+            >
+              logRocket
             </a>
             &nbsp;&nbsp;
             <a
