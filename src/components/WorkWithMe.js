@@ -9,9 +9,9 @@ const WorkWithMe = ({ ga }) => {
   };
 
   return (
-    <div className="work-bg">
+    <div>
       <div
-        className="px-8 py-20 md:py-40 md:max-w-2xl lg:max-w-5xl m-auto"
+        className="px-8 py-5 pb-20 md:pb-0 md:py-10 md:max-w-md lg:max-w-3xl m-auto"
         id="work-with-me"
       >
         <div>
@@ -130,7 +130,7 @@ const WorkWithMe = ({ ga }) => {
             </a>
           </div>
         </div>
-        <div className="mt-8 mb-20 pr-10">
+        {/* <div className="mt-8 mb-20 pr-10">
           <div
             className="text-center font-bold text-4xl md:text-6xl"
             data-sal="slide-right"
@@ -165,7 +165,7 @@ const WorkWithMe = ({ ga }) => {
               react-direction(<strong>NPM</strong>)
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

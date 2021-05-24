@@ -16,14 +16,14 @@ const Home = ({ ga, inView, ref }) => {
   };
   return (
     <div>
-      <Menu ga={ga} inView={inView} />
-    
-    <div className="min-h-screen pt-40 md:pt-20 md:flex justify-around items-center px-10 home circles">
-      <div className="max-w-xs md:max-w-2xl lg:max-w-4xl home-container z-10">
-        <div>
+      {/* <Menu ga={ga} inView={inView} /> */}
+    <div className="md:flex flex-col text-lg md:text-2xl m-auto w-64 sm:w-auto md:max-w-md lg:max-w-3xl">
+    {/* <div className="min-h-screen pt-40 md:pt-20 md:flex justify-around items-center px-10 home circles"> */}
+      {/* <div className="max-w-xs md:max-w-2xl lg:max-w-4xl home-container z-10"> */}
+        {/* <div>
           <h1 className="text-4xl md:text-6xl font-bold ">Hi, I'm Adebola.</h1>
-        </div>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl">
+        </div> */}
+        {/* <h1 className="text-4xl md:text-5xl lg:text-6xl">
           <mark>Fullstack</mark> developer.
           <br />
           <TextLoop>
@@ -36,19 +36,23 @@ const Home = ({ ga, inView, ref }) => {
             <span className="text-yellow-600 z-40">Express.</span>
             <span className="pr-6 md:pr-0 text-yellow-600 z-40">Figma.</span>
           </TextLoop>
-        </h1>
+        </h1> */}
 
-        <ScrollIntoView selector="#work-with-me">
+        {/* <ScrollIntoView selector="#work-with-me">
           <button
             className="font-bold mt-2 border border-2 rounded-sm border-black px-6 py-2 text-sm pro-button text z-10"
             onClick={handleClick}
           >
             WORK WITH ME
           </button>
-        </ScrollIntoView>
+        </ScrollIntoView> */}
+      {/* </div> */}
+      {/* </div> */}
+      {/* <Pro projects={projects} ga={ga} theRef={ref} inView={inView} /> */}
+
+      <h1 class="mt-20 text-5xl font-bold">Hey!</h1>
+      <p>Adebola here. I'm a Fullstack Software Engineer passionate about building Developer Communities. I enjoy creating technical content, building products and speaking to Developer teams.</p>
       </div>
-      </div>
-      <Pro projects={projects} ga={ga} theRef={ref} inView={inView} />
       <WorkWithMe ga={ga} />
       <Foot />
     </div>
