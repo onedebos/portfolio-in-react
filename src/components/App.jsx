@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 import ReactGA from "react-ga";
 import { Helmet } from "react-helmet";
 import sal from "sal.js";
 import "../../node_modules/sal.js/dist/sal.css";
-import projects from "../helpers/ProjectsArray";
 import { DESCRIPTION, TITLE, TYPE, URL } from "../helpers/meta";
 import Debs from "../helpers/debs-og.jpg";
 import Home from "./Home";
@@ -17,10 +15,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 // }
 
 export default function App() {
-  const [ref, inView] = useInView({
-    //   /* Optional options */
-    //   threshold: 0,
-  });
+
 
   useEffect(() => {
     let mounted = true;
@@ -59,15 +54,9 @@ export default function App() {
             content="Adebola Adeniran - Fullstack Engineer"
           />
         </Helmet>
-
-        {/* <Home ga={ReactGA} inView={inView} /> */}
-        {/* <Pro projects={projects} ga={ReactGA} theRef={ref} inView={inView} /> */}
-
-        {/* <WorkWithMe ga={ReactGA} /> */}
-        {/* <Foot /> */}
       </div>
       <Switch>
-        <Route exact path="/" component={()=> <Home ga={ReactGA} inView={inView} ref={ref} projects={projects} />} />
+        <Route exact path="/" component={()=> <Home ga={ReactGA} />} />
         <Route path="/subscribe" component={Subscribe} />
       </Switch>
     </BrowserRouter>
