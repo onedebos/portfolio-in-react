@@ -103,13 +103,13 @@ const WorkWithMe = ({ ga }) => {
               medium
             </a>{" "}
             &nbsp;&nbsp;
-            <a
+            {/* <a
               href="https://linktr.ee/adebol_a"
               target="_blank"
               rel="noopener noreferrer"
             >
               linktree
-            </a>
+            </a> */}
             &nbsp;&nbsp;
             <a
               href="https://www.freecodecamp.org/news/author/adebola/"
