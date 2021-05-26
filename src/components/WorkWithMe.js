@@ -75,7 +75,7 @@ const WorkWithMe = ({ ga }) => {
           >
             <mark>Publications.</mark>
           </div>
-          <div className="text-center md:text-2xl" data-sal="slide-down">
+          <p className="text-center md:text-2xl" data-sal="slide-up">
             <a
               href="https://dev.to/@debosthefirst"
               target="_blank"
@@ -136,7 +136,7 @@ const WorkWithMe = ({ ga }) => {
             >
               blog
             </a>
-          </div>
+          </p>
         </div>
         {/* <div className="mt-8 mb-20 pr-10">
           <div
