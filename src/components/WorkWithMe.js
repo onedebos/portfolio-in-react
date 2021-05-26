@@ -68,7 +68,7 @@ const WorkWithMe = ({ ga }) => {
             </a>
           </p>
         </div>
-        <div className="mt-8 pr-10">
+        <div className="mt-8">
           <div
             className="text-center font-bold text-2xl md:text-6xl"
             data-sal="slide-right"
