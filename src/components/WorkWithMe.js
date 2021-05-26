@@ -16,12 +16,12 @@ const WorkWithMe = ({ ga }) => {
       >
         <div>
           <div
-            className="text-center font-bold text-4xl md:text-6xl"
+            className="text-center font-bold text-2xl md:text-6xl"
             data-sal="slide-left"
           >
             <mark>Work with me.</mark>
           </div>
-          <p className="text-center text-2xl" data-sal="slide-up">
+          <p className="text-center md:text-2xl" data-sal="slide-up">
             <a
               href="https://github.com/onedebos/"
               target="_blank"
@@ -70,12 +70,12 @@ const WorkWithMe = ({ ga }) => {
         </div>
         <div className="mt-8 pr-10">
           <div
-            className="text-center font-bold text-4xl md:text-6xl"
+            className="text-center font-bold text-2xl md:text-6xl"
             data-sal="slide-right"
           >
             <mark>Publications.</mark>
           </div>
-          <div className="text-center text-2xl" data-sal="slide-down">
+          <div className="text-center md:text-2xl" data-sal="slide-down">
             <a
               href="https://dev.to/@debosthefirst"
               target="_blank"
