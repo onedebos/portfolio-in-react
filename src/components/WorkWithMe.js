@@ -21,7 +21,7 @@ const WorkWithMe = ({ ga }) => {
           >
             <mark>Work with me.</mark>
           </div>
-          <p className="text-center md:text-2xl" data-sal="slide-up">
+          <p className="text-center text-lg md:text-2xl" data-sal="slide-up">
             <a
               href="https://github.com/onedebos/"
               target="_blank"
@@ -75,7 +75,7 @@ const WorkWithMe = ({ ga }) => {
           >
             <mark>Publications.</mark>
           </div>
-          <p className="text-center md:text-2xl" data-sal="slide-up">
+          <p className="text-center text-lg md:text-2xl" data-sal="slide-up">
             <a
               href="https://dev.to/@debosthefirst"
               target="_blank"
