@@ -8,7 +8,7 @@ const footer = () => {
           Adebola<span className="font-bold">Adeniran</span>
         </div>
         <div className="md:p-3 text-black text-xs">
-          © 2020, Adebola Adeniran's portfolio
+          © 2020, Adebola Adeniran.
         </div>
       </div>
     </div>
